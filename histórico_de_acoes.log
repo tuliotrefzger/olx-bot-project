@@ -1,0 +1,75 @@
+2024-02-14 11:36:42,621 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 11:36:43,539 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:36:44,038 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:36:44,479 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:36:45,449 - WDM - INFO - WebDriver version 121.0.6167.85 selected
+2024-02-14 11:36:45,450 - WDM - INFO - Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/121.0.6167.85/win32/chromedriver-win32.zip
+2024-02-14 11:36:45,450 - WDM - INFO - About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/121.0.6167.85/win32/chromedriver-win32.zip
+2024-02-14 11:36:45,923 - WDM - INFO - Driver downloading response is 200
+2024-02-14 11:36:47,812 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:36:48,390 - WDM - INFO - Driver has been saved in cache [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85]
+2024-02-14 11:37:06,144 - root - INFO - Chrome foi aberto na página do BTG
+2024-02-14 11:44:42,837 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 11:44:43,705 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:44:44,239 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:44:44,678 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 11:44:46,592 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 11:44:49,158 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 11:44:50,025 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:44:50,473 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:44:50,929 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 11:45:18,162 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:04:15,418 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:04:16,314 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:04:16,806 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:04:17,266 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:07:31,263 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:07:32,137 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:07:32,596 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:07:33,079 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:07:40,442 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:55:47,907 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:55:48,884 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:55:49,535 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:55:50,138 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:56:19,802 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:56:59,351 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:57:00,211 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:00,691 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:01,166 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:57:15,260 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:57:22,172 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:57:23,146 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:23,607 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:24,087 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:57:26,375 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:57:31,866 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:57:32,700 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:33,174 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:33,636 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:58:00,548 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:58:04,663 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:58:05,550 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:58:06,065 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:58:06,517 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:58:31,846 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 13:04:14,094 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 13:04:14,925 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:04:15,399 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:04:15,867 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 13:04:35,738 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 13:07:52,764 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 13:07:53,934 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:07:54,523 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:07:55,095 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 13:08:20,269 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 13:19:49,996 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 13:19:50,901 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:19:51,391 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:19:51,847 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 13:20:16,630 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 13:21:25,273 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 13:21:26,181 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:21:26,701 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:21:27,251 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 13:21:51,867 - root - INFO - Chrome foi aberto na página do OLX
