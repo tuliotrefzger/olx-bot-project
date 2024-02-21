@@ -7,6 +7,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options as ChromeOptions
+from selenium.common.exceptions import NoSuchElementException
+
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -46,6 +48,8 @@ def olx_webcrawler(search_infos):
     # Creates a chrome driver instance and goes to the Olx car url
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.maximize_window()
+
+    # Login part
     # driver.get("https://conta.olx.com.br/acesso")
     # WebDriverWait(driver, 180).until(
     #     EC.element_to_be_clickable(
@@ -107,10 +111,14 @@ def olx_webcrawler(search_infos):
                 By.CSS_SELECTOR,
                 "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.fnDpgM > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(2) > div > span",
             ).text
-            take_trades = driver.find_element(
-                By.CSS_SELECTOR,
-                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.hdSEbB > div > div > div > div.olx-d-flex.olx-fd-column > div > div > span",
-            ).text
+            try:
+                take_trades = driver.find_element(
+                    By.CSS_SELECTOR,
+                    "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.hdSEbB > div > div > div > div.olx-d-flex.olx-fd-column > div > div > span",
+                ).text
+            except NoSuchElementException:
+                # If element not found, set take_trades to "Não aceita"
+                take_trades = "Não aceita"
             car_year = driver.find_element(
                 By.CSS_SELECTOR,
                 "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ebdmHc > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(5) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a",
@@ -161,27 +169,8 @@ def olx_webcrawler(search_infos):
             driver.close()
 
             driver.switch_to.window(olx_main_tab)
-            # print(
-            #     f"""
-            #           nome: {announcer_name}
-            #           usuário desde: {user_since}
-            #           preço: {car_price}
-            #           média de preço: {average_price}
-            #           Preço tabela Fipe: {fipe_price}
-            #           Aceita trocas?: {take_trades}
-            #           ano: {car_year}
-            #           potencia: {car_potency}
-            #           quilometragem: {car_km}
-            #           cambio: {car_shifter}
-            #           direção: {car_steering_type}
-            #           cor: {car_color}
-            #           Número de Portas: {doors_number}
-            #           Kit GNV?: {gnv_kit}
-            #           data do anuncio: {announce_date}
-            #           endereço: {announcer_adress}
-            #           telefone: teste
-            #           """
-            # )
+
+            data_rows = []
             data = {
                 "Nome": announcer_name,
                 "Marca": search_infos["brand"],
@@ -203,8 +192,10 @@ def olx_webcrawler(search_infos):
                 "Endereço": announcer_adress,
                 "Telefone": "teste",
             }
-            df_client_informations = df_client_informations.append(
-                data, ignore_index=True
+            data_rows.append(data)
+
+            df_client_informations = pd.concat(
+                [df_client_informations, pd.DataFrame(data_rows)]
             )
             print(df_client_informations)
         except Exception as err:
