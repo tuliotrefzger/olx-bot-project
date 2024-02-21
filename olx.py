@@ -46,8 +46,18 @@ def olx_webcrawler(search_infos):
     # Creates a chrome driver instance and goes to the Olx car url
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.maximize_window()
+    # driver.get("https://conta.olx.com.br/acesso")
+    # WebDriverWait(driver, 180).until(
+    #     EC.element_to_be_clickable(
+    #         (
+    #             By.CSS_SELECTOR,
+    #             "#header > nav > div > div.sc-eTEhWN.iJIOMF > ul > li:nth-child(6) > a",
+    #         )
+    #     )
+    # )
+
     driver.get(
-        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{search_infos['brand']}/{search_infos['model']}/estado-df"
+        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{search_infos['brand']}/{search_infos['model']}/estado-df?f=p&me={search_infos['maxKm']}&ms={search_infos['minKm']}&re={search_infos['maxYear']}&rs={search_infos['minYear']}"
     )
     # ?me={search_infos['maxKm']}&ms={search_infos['minKm']}&re={search_infos['maxYear']}&rs={search_infos['minYear']}
     # Saves the main tab, with all the Announces
@@ -85,11 +95,118 @@ def olx_webcrawler(search_infos):
                 By.CSS_SELECTOR,
                 "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.dBnjzp > div.ad__sc-h3us20-6.bwBaLM > div > div > div > div.sc-gEvEer.sc-jnOGJG.fPFnoJ.bwWeeV > div.sc-gEvEer.sc-dZoequ.fPFnoJ.hVyURs > div.sc-gEvEer.sc-eZkCL.fPFnoJ.miRdz > div:nth-child(3) > div > span.sc-eqUAAy.crJkyb.sc-ibQAlb.lUVuq",
             ).text
+            car_price = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.hQZMji > div > div > div > div.ad__sc-en9h1n-0.IoqnP > div.ad__sc-1leoitd-2.fIICfM.olx-d-flex.olx-ai-flex-start.olx-fd-column > h2",
+            ).text
+            average_price = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.fnDpgM > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(1) > div.sc-bcXHqe.DqRAg > span",
+            ).text
+            fipe_price = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.fnDpgM > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(2) > div > span",
+            ).text
+            take_trades = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.hdSEbB > div > div > div > div.olx-d-flex.olx-fd-column > div > div > span",
+            ).text
+            car_year = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ebdmHc > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(5) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a",
+            ).text
+            car_potency = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ebdmHc > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(7) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130",
+            ).text
+            car_km = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ebdmHc > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(6) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130",
+            ).text
+            car_shifter = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ebdmHc > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(10) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130",
+            ).text
+            car_steering_type = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ebdmHc > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(14) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130",
+            ).text
+            car_color = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ebdmHc > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(11) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130",
+            ).text
+            doors_number = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ebdmHc > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(12) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130",
+            ).text
+            gnv_kit = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ebdmHc > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(9) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130",
+            ).text
+            announce_date = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ckBKfA > div > div > div > span.olx-text.olx-text--caption.olx-text--block.olx-text--regular.ad__sc-1oq8jzc-0.dWayMW.olx-color-neutral-120",
+            ).text
+            announcer_name = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.dBnjzp > div.ad__sc-h3us20-6.bwBaLM > div > div > div > div.sc-gEvEer.sc-jnOGJG.fPFnoJ.bwWeeV > div.sc-gEvEer.sc-dZoequ.fPFnoJ.hVyURs > div.sc-gEvEer.sc-bBeLUv.fPFnoJ.ebacRy > div > div > div > div > span",
+            ).text
+            announcer_adress = driver.find_element(
+                By.CSS_SELECTOR,
+                "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.dBnjzp > div.ad__sc-h3us20-6.bwBaLM > div > div > div > div.sc-gEvEer.sc-jnOGJG.fPFnoJ.bwWeeV > div.sc-gEvEer.sc-dZoequ.fPFnoJ.hVyURs > div.sc-gEvEer.sc-eZkCL.fPFnoJ.miRdz > div:nth-child(1) > div > span.sc-eqUAAy.crJkyb.sc-ibQAlb.lUVuq",
+            ).text
+
             time.sleep(3)
+
             driver.close()
 
             driver.switch_to.window(olx_main_tab)
-            print(f"{user_since}")
+            # print(
+            #     f"""
+            #           nome: {announcer_name}
+            #           usuário desde: {user_since}
+            #           preço: {car_price}
+            #           média de preço: {average_price}
+            #           Preço tabela Fipe: {fipe_price}
+            #           Aceita trocas?: {take_trades}
+            #           ano: {car_year}
+            #           potencia: {car_potency}
+            #           quilometragem: {car_km}
+            #           cambio: {car_shifter}
+            #           direção: {car_steering_type}
+            #           cor: {car_color}
+            #           Número de Portas: {doors_number}
+            #           Kit GNV?: {gnv_kit}
+            #           data do anuncio: {announce_date}
+            #           endereço: {announcer_adress}
+            #           telefone: teste
+            #           """
+            # )
+            data = {
+                "Nome": announcer_name,
+                "Marca": search_infos["brand"],
+                "Modelo": search_infos["model"],
+                "Usuário Desde": user_since,
+                "Preço": car_price,
+                "Média de Preço": average_price,
+                "Preço Tabela FIPE": fipe_price,
+                "Aceita Trocas": take_trades,
+                "Ano": car_year,
+                "Potência": car_potency,
+                "Quilometragem": car_km,
+                "Câmbio": car_shifter,
+                "Direção": car_steering_type,
+                "Cor": car_color,
+                "Portas": doors_number,
+                "Kit GNV": gnv_kit,
+                "Data do Anúncio": announce_date,
+                "Endereço": announcer_adress,
+                "Telefone": "teste",
+            }
+            df_client_informations = df_client_informations.append(
+                data, ignore_index=True
+            )
+            print(df_client_informations)
         except Exception as err:
             logging.info("Falha ao buscar carro %s", err)
     driver.close()
