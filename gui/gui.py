@@ -1,7 +1,23 @@
 import tkinter
 import tkinter.messagebox
 import tkinter.ttk
+from typing import Union, Tuple, Optional
+import json
 import customtkinter
+from customtkinter import (
+    CTkLabel,
+    CTkButton,
+    ThemeManager,
+    CTkToplevel,
+    CTkFont,
+)
+import os
+from PIL import ImageTk
+
+# Read the JSON file
+with open("brand-model-dict.json", "r") as file:
+    brand_model_dict = json.load(file)
+# print(brand_model_dict)
 
 customtkinter.set_appearance_mode("Dark")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme(
@@ -43,13 +59,446 @@ class Sidebar(customtkinter.CTkFrame):
         self.scaling_optionemenu.grid(row=8, column=0, padx=20, pady=(10, 20))
 
 
+class OptionsTabView(customtkinter.CTkTabview):
+    def __init__(self, master=None, **kwargs):
+        super().__init__(master, **kwargs)
+        self.grid(row=0, column=2, padx=(10, 10), pady=(10, 0), sticky="nsew")
+        self.add("Opções")
+        self.add("Opções Avançadas")
+        self.tab("Opções").grid_columnconfigure(0, weight=1)
+        self.tab("Opções Avançadas").grid_columnconfigure(0, weight=1)
+
+        # brand select
+        self.brand_label = customtkinter.CTkLabel(
+            self.tab("Opções"), text="Marca:", anchor="w"
+        )
+        self.brand_label.grid(row=0, column=0)
+
+        self.brand_option_frame = customtkinter.CTkFrame(self.tab("Opções"))
+        self.brand_option_frame.grid(row=1, column=0)
+        self.brand_option = tkinter.ttk.Combobox(
+            self.brand_option_frame,
+            values=list(brand_model_dict),
+        )
+        self.brand_option.pack(side=tkinter.LEFT, fill=tkinter.BOTH, expand=True)
+        self.brand_option.bind("<<ComboboxSelected>>", self.update_car_models)
+
+        # car model select
+        self.car_model_label = customtkinter.CTkLabel(
+            self.tab("Opções"), text="Modelo:", anchor="w"
+        )
+        self.car_model_label.grid(row=2, column=0)
+
+        self.car_model_option_frame = customtkinter.CTkFrame(self.tab("Opções"))
+        self.car_model_option_frame.grid(row=3, column=0)
+
+        self.car_model_option = tkinter.ttk.Combobox(
+            self.car_model_option_frame,
+            values=[],
+        )
+        self.car_model_option.pack(side=tkinter.LEFT, fill=tkinter.BOTH, expand=True)
+
+        # ---------------------------------------------------
+
+        self.min_km_label = customtkinter.CTkLabel(
+            self.tab("Opções Avançadas"), text="Kilometragem mínima:"
+        )
+        self.min_km_label.grid(row=0, column=0, padx=(10, 10), pady=(10, 0))
+
+        # self.min_km_frame = customtkinter.CTkFrame(self.tab("Opções Avançadas"))
+        # self.min_km_frame.grid(row=2, column=0)
+
+        self.min_km = tkinter.ttk.Combobox(
+            self.tab("Opções Avançadas"),
+            values=[
+                "---",
+                "0",
+                "5.000",
+                "10.000",
+                "20.000",
+                "30.000",
+                "40.000",
+                "60.000",
+                "80.000",
+                "100.000",
+                "120.000",
+                "140.000",
+                "160.000",
+                "180.000",
+                "200.000",
+                "250.000",
+                "300.000",
+                "400.000",
+                "500.000",
+            ],
+        )
+        self.min_km.grid(row=0, column=1, padx=(10, 10), pady=(10, 0), sticky="ne")
+
+        self.max_km_label = customtkinter.CTkLabel(
+            self.tab("Opções Avançadas"), text="Kilometragem máxima:"
+        )
+        self.max_km_label.grid(row=1, column=0, padx=(10, 10), pady=(10, 0))
+
+        self.max_km = tkinter.ttk.Combobox(
+            self.tab("Opções Avançadas"),
+            values=[
+                "---",
+                "0",
+                "5.000",
+                "10.000",
+                "20.000",
+                "30.000",
+                "40.000",
+                "60.000",
+                "80.000",
+                "100.000",
+                "120.000",
+                "140.000",
+                "160.000",
+                "180.000",
+                "200.000",
+                "250.000",
+                "300.000",
+                "400.000",
+                "500.000",
+            ],
+        )
+        self.max_km.grid(row=1, column=1, padx=(10, 10), pady=(10, 0), sticky="ne")
+
+        self.min_year_label = customtkinter.CTkLabel(
+            self.tab("Opções Avançadas"), text="Ano mínimo:"
+        )
+        self.min_year_label.grid(row=2, column=0, padx=(10, 10), pady=(10, 0))
+
+        self.min_year = tkinter.ttk.Combobox(
+            self.tab("Opções Avançadas"),
+            values=[
+                "---",
+                "1950 ou anterior",
+                "1951",
+                "1952",
+                "1953",
+                "1954",
+                "1955",
+                "1956",
+                "1957",
+                "1958",
+                "1959",
+                "1960",
+                "1961",
+                "1962",
+                "1963",
+                "1964",
+                "1965",
+                "1966",
+                "1967",
+                "1968",
+                "1969",
+                "1970",
+                "1971",
+                "1972",
+                "1973",
+                "1974",
+                "1975",
+                "1976",
+                "1977",
+                "1978",
+                "1979",
+                "1980",
+                "1981",
+                "1982",
+                "1983",
+                "1984",
+                "1985",
+                "1986",
+                "1987",
+                "1988",
+                "1989",
+                "1990",
+                "1991",
+                "1992",
+                "1993",
+                "1994",
+                "1995",
+                "1996",
+                "1997",
+                "1998",
+                "1999",
+                "2000",
+                "2001",
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023",
+                "2024",
+            ],
+        )
+        self.min_year.grid(row=2, column=1, padx=(10, 10), pady=(10, 0), sticky="ne")
+
+        self.max_year_label = customtkinter.CTkLabel(
+            self.tab("Opções Avançadas"), text="Ano máximo:"
+        )
+        self.max_year_label.grid(row=3, column=0, padx=(10, 10), pady=(10, 0))
+
+        self.max_year = tkinter.ttk.Combobox(
+            self.tab("Opções Avançadas"),
+            values=[
+                "---",
+                "1950 ou anterior",
+                "1951",
+                "1952",
+                "1953",
+                "1954",
+                "1955",
+                "1956",
+                "1957",
+                "1958",
+                "1959",
+                "1960",
+                "1961",
+                "1962",
+                "1963",
+                "1964",
+                "1965",
+                "1966",
+                "1967",
+                "1968",
+                "1969",
+                "1970",
+                "1971",
+                "1972",
+                "1973",
+                "1974",
+                "1975",
+                "1976",
+                "1977",
+                "1978",
+                "1979",
+                "1980",
+                "1981",
+                "1982",
+                "1983",
+                "1984",
+                "1985",
+                "1986",
+                "1987",
+                "1988",
+                "1989",
+                "1990",
+                "1991",
+                "1992",
+                "1993",
+                "1994",
+                "1995",
+                "1996",
+                "1997",
+                "1998",
+                "1999",
+                "2000",
+                "2001",
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023",
+                "2024",
+            ],
+        )
+        self.max_year.grid(row=3, column=1, padx=(10, 10), pady=(10, 0), sticky="ne")
+
+        # Inicial config
+        self.brand_option.set("Marca")
+        self.car_model_option.set("Modelo")
+        self.min_km.set("---")
+        self.max_km.set("---")
+        self.min_year.set("---")
+        self.max_year.set("---")
+
+    def update_car_models(self, _):
+        """Updates car model list based on brand."""
+        selected_brand = self.brand_option.get()
+        car_models = brand_model_dict[selected_brand]
+        self.car_model_option["values"] = car_models
+
+
+class MyInputDialog(CTkToplevel):
+    """
+    Dialog with extra window, message, entry widget, cancel and ok button.
+    For detailed information check out the documentation.
+    """
+
+    def __init__(
+        self,
+        fg_color: Optional[Union[str, Tuple[str, str]]] = None,
+        text_color: Optional[Union[str, Tuple[str, str]]] = None,
+        button_fg_color: Optional[Union[str, Tuple[str, str]]] = None,
+        button_hover_color: Optional[Union[str, Tuple[str, str]]] = None,
+        button_text_color: Optional[Union[str, Tuple[str, str]]] = None,
+        entry_fg_color: Optional[Union[str, Tuple[str, str]]] = None,
+        entry_border_color: Optional[Union[str, Tuple[str, str]]] = None,
+        entry_text_color: Optional[Union[str, Tuple[str, str]]] = None,
+        title: str = "CTkDialog",
+        font: Optional[Union[tuple, CTkFont]] = None,
+        text: str = "CTkDialog",
+    ):
+        super().__init__(fg_color=fg_color)
+
+        self._fg_color = (
+            ThemeManager.theme["CTkToplevel"]["fg_color"]
+            if fg_color is None
+            else self._check_color_type(fg_color)
+        )
+        self._text_color = (
+            ThemeManager.theme["CTkLabel"]["text_color"]
+            if text_color is None
+            else self._check_color_type(button_hover_color)
+        )
+        self._button_fg_color = (
+            ThemeManager.theme["CTkButton"]["fg_color"]
+            if button_fg_color is None
+            else self._check_color_type(button_fg_color)
+        )
+        self._button_hover_color = (
+            ThemeManager.theme["CTkButton"]["hover_color"]
+            if button_hover_color is None
+            else self._check_color_type(button_hover_color)
+        )
+        self._button_text_color = (
+            ThemeManager.theme["CTkButton"]["text_color"]
+            if button_text_color is None
+            else self._check_color_type(button_text_color)
+        )
+        self._entry_fg_color = (
+            ThemeManager.theme["CTkEntry"]["fg_color"]
+            if entry_fg_color is None
+            else self._check_color_type(entry_fg_color)
+        )
+        self._entry_border_color = (
+            ThemeManager.theme["CTkEntry"]["border_color"]
+            if entry_border_color is None
+            else self._check_color_type(entry_border_color)
+        )
+        self._entry_text_color = (
+            ThemeManager.theme["CTkEntry"]["text_color"]
+            if entry_text_color is None
+            else self._check_color_type(entry_text_color)
+        )
+
+        self._user_input: Union[str, None] = None
+        self._running: bool = False
+        self._title = title
+        self._text = text
+        self._font = font
+
+        self.title(self._title)
+        self.lift()  # lift window on top
+        self.attributes("-topmost", True)  # stay on top
+        self.protocol("WM_DELETE_WINDOW", self._on_closing)
+        self.after(
+            10, self._create_widgets
+        )  # create widgets with slight delay, to avoid white flickering of background
+        self.resizable(False, False)
+        self.grab_set()  # make other windows not clickable
+
+    def _create_widgets(self):
+        self.grid_columnconfigure((0, 1), weight=1)
+        self.rowconfigure(0, weight=1)
+
+        self._label = CTkLabel(
+            master=self,
+            width=300,
+            wraplength=300,
+            fg_color="transparent",
+            text=self._text,
+            font=self._font,
+        )
+        self._label.grid(row=0, column=0, columnspan=2, padx=20, pady=20, sticky="ew")
+
+        self._ok_button = CTkButton(
+            master=self,
+            width=100,
+            border_width=0,
+            text="Ok",
+            font=self._font,
+            command=self._ok_event,
+        )
+        self._ok_button.grid(
+            row=2, column=0, columnspan=1, padx=(20, 10), pady=(0, 20), sticky="ew"
+        )
+
+        self._cancel_button = CTkButton(
+            master=self,
+            width=100,
+            border_width=0,
+            text="Cancel",
+            font=self._font,
+            command=self._cancel_event,
+        )
+        self._cancel_button.grid(
+            row=2, column=1, columnspan=1, padx=(10, 20), pady=(0, 20), sticky="ew"
+        )
+
+    def _ok_event(self, event=None):
+        self.grab_release()
+        self.destroy()
+
+    def _on_closing(self):
+        self.grab_release()
+        self.destroy()
+
+    def _cancel_event(self):
+        self.grab_release()
+        self.destroy()
+
+    def get_input(self):
+        self.master.wait_window(self)
+        return self._user_input
+
+
 class App(customtkinter.CTk):
+    """Main application."""
+
     def __init__(self):
         super().__init__()
 
         # configure window
         self.title("Automação de Busca de Carros na OLX")
-        self.geometry(f"{1100}x{380}")
+        self.geometry(f"{1100}x{350}")
 
         # configure grid layout (4x4)
         self.grid_columnconfigure(1, weight=1)
@@ -60,185 +509,27 @@ class App(customtkinter.CTk):
         self.sidebar = Sidebar(self, width=140, corner_radius=0)
         self.sidebar.grid(row=0, column=0, rowspan=4, sticky="nsew")
 
-        # # create main entry and button
-        # self.entry = customtkinter.CTkEntry(self, placeholder_text="CTkEntry")
-        # self.entry.grid(
-        #     row=3, column=1, columnspan=2, padx=(20, 0), pady=(20, 20), sticky="nsew"
-        # )
-
         self.main_button_1 = customtkinter.CTkButton(
             master=self,
             fg_color="transparent",
             border_width=2,
             text_color=("gray10", "#DCE4EE"),
-            text="Buscar"
+            text="Buscar",
+            command=self.open_input_dialog_event,
         )
         self.main_button_1.grid(
-            row=3, column=1, padx=(20, 20), pady=(20, 20), sticky="nsew"
+            row=3, column=1, columnspan=2, padx=(40, 40), pady=(20, 20), sticky="nsew"
         )
 
         # create textbox
         self.textbox = customtkinter.CTkTextbox(self, width=250)
         self.textbox.grid(row=0, column=1, padx=(20, 0), pady=(20, 0), sticky="nsew")
 
-        # create tabview
-        self.tabview = customtkinter.CTkTabview(self, width=250)
-        self.tabview.grid(row=0, column=2, padx=(20, 20), pady=(20, 0), sticky="nsew")
-        self.tabview.add("Opções")
-        self.tabview.add("Opções Avançadas")
-        self.tabview.tab("Opções").grid_columnconfigure(
-            0, weight=1
-        )  # configure grid of individual tabs
-        self.tabview.tab("Opções Avançadas").grid_columnconfigure(0, weight=1)
-
-        self.optionmenu_frame = customtkinter.CTkFrame(self.tabview.tab("Opções"))
-        self.optionmenu_frame.grid(row=0, column=0, padx=20, pady=(20, 10))
-
-        # self.optionmenu_scrollbar = tkinter.Scrollbar(self.optionmenu_frame, orient=tkinter.VERTICAL)
-        # self.optionmenu_scrollbar.pack(side=tkinter.RIGHT, fill=tkinter.Y)
-
-        self.optionmenu_1 = tkinter.ttk.Combobox(
-            self.optionmenu_frame,
-            values=[
-                "ACURA",
-                "AGRALE",
-                "ALFA ROMEO",
-                "AM GEN",
-                "AMERICAR",
-                "ASIA MOTORS",
-                "ASTON MARTIN",
-                "AUDI",
-                "BABY",
-                "BENTLEY",
-                "BMW",
-                "BRM",
-                "BUGGY",
-                "BUGRE",
-                "BYD",
-                "CAB MOTORS",
-                "CADILLAC",
-                "CBT JIPE",
-                "CHANA",
-                "CHANGAN",
-                "CHERY",
-                "CHEVROLET",
-                "CHRYSLER",
-                "CITROEN",
-                "CROSS LANDER",
-                "D4D",
-                "DACON",
-                "DAEWOO",
-                "DAIHATSU",
-                "DFSK",
-                "DKW VEMAG",
-                "DODGE",
-                "EFFA",
-                "ENGESA",
-                "ENVEMO",
-                "FERRARI",
-                "FIAT",
-                "FIBRAVAN",
-                "FORD",
-                "FOTON",
-                "FYBER",
-                "GEELY",
-                "GREAT WALL",
-                "GURGEL",
-                "GWM",
-                "HAFEI",
-                "HITECH ELETRIC",
-                "HONDA",
-                "HYUNDAI",
-                "INFINITI",
-                "ISUZU",
-                "IVECO",
-                "JAC",
-                "JAGUAR",
-                "JEEP",
-                "JINBEI",
-                "JPX",
-                "KIA MOTORS",
-                "LADA",
-                "LAMBORGHINI",
-                "LAND ROVER",
-                "LANDWIND",
-                "LEXUS",
-                "LIFAN",
-                "LOBINI",
-                "LOTUS",
-                "MAHINDRA",
-                "MASERATI",
-                "MATRA",
-                "MAZDA",
-                "MCLAREN",
-                "MERCEDES-BENZ",
-                "MERCURY",
-                "MG",
-                "MINI",
-                "MITSUBISHI",
-                "MIURA",
-                "MON",
-                "MP LAFER",
-                "NISSAN",
-                "PEUGEOT",
-                "PLYMOUTH",
-                "PONTIAC",
-                "PORSCHE",
-                "PUMA",
-                "RAM",
-                "RELY",
-                "RENAULT",
-                "RIVIAN",
-                "ROLLS-ROYCE",
-                "ROVER",
-                "SAAB",
-                "SATURN",
-                "SEAT",
-                "SERES",
-                "SHINERAY",
-                "SMART",
-                "SSANGYONG",
-                "SUBARU",
-                "SUNBEAM TALBOT",
-                "SUZUKI",
-                "SWELL MINI VEICULOS",
-                "TAC",
-                "TESLA",
-                "TOYOTA",
-                "TROLLER",
-                "VENTURA",
-                "VOLKSWAGEN",
-                "VOLVO",
-                "WAKE",
-                "WALK",
-                "WILLYS OVERLAND",
-            ],
-        )
-
-        # self.optionmenu_1.pack()
-        self.optionmenu_1.pack(side=tkinter.LEFT, fill=tkinter.BOTH, expand=True)
-
-        self.combobox_1 = customtkinter.CTkComboBox(
-            self.tabview.tab("Opções"),
-            values=["Value 1", "Value 2", "Value Long....."],
-        )
-        self.combobox_1.grid(row=1, column=0, padx=20, pady=(10, 10))
-        self.string_input_button = customtkinter.CTkButton(
-            self.tabview.tab("Opções"),
-            text="Open CTkInputDialog",
-            command=self.open_input_dialog_event,
-        )
-        self.string_input_button.grid(row=2, column=0, padx=20, pady=(10, 10))
-        self.label_tab_2 = customtkinter.CTkLabel(
-            self.tabview.tab("Opções Avançadas"), text="CTkLabel on Opções Avançadas"
-        )
-        self.label_tab_2.grid(row=0, column=0, padx=20, pady=20)
+        self.options_tab_view = OptionsTabView(self)
 
         # set default values
         self.sidebar.appearance_mode_optionemenu.set("Dark")
         self.sidebar.scaling_optionemenu.set("100%")
-        self.optionmenu_1.set("Marca")
-        self.combobox_1.set("CTkComboBox")
         self.textbox.insert(
             "0.0",
             "Automação OLX\n\n"
@@ -246,23 +537,27 @@ class App(customtkinter.CTk):
             + "Bem-vindo ao mecanismo automático de busca de carros. Aqui facilitaremos seu trabalho enviando mensagens automáticas pelo WhatsApp para os vendedores da OLX que se adequem aos campos a serem selecionados por você.\n\n",
         )
 
+        # App logo
+        self.iconpath = ImageTk.PhotoImage(file=os.path.join("images", "olx.png"))
+        self.wm_iconbitmap()
+        self.iconphoto(False, self.iconpath)
+
     def open_input_dialog_event(self):
-        dialog = customtkinter.CTkInputDialog(
-            text="Type in a number:", title="CTkInputDialog"
-        )
+        """Opens confirmation pop up."""
+        dialog = MyInputDialog(text="Começar a busca:", title="Confirmação")
         print("CTkInputDialog:", dialog.get_input())
 
     def change_appearance_mode_event(self, new_appearance_mode: str):
+        """Changes colorscheme."""
         customtkinter.set_appearance_mode(new_appearance_mode)
 
     def change_scaling_event(self, new_scaling: str):
+        """Changes application scale."""
         new_scaling_float = int(new_scaling.replace("%", "")) / 100
         customtkinter.set_widget_scaling(new_scaling_float)
 
-    def sidebar_button_event(self):
-        print("sidebar_button click")
-
 
 if __name__ == "__main__":
+    # print(brand_model_dict)
     app = App()
     app.mainloop()
