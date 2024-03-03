@@ -341,6 +341,26 @@ class OptionsTabView(customtkinter.CTkTabview):
         )
         self.max_year.grid(row=3, column=1, padx=(10, 10), pady=(10, 0), sticky="ne")
 
+        self.pf_adds_switch_var = customtkinter.StringVar(value="on")
+        self.pf_adds_switch = customtkinter.CTkSwitch(
+            self.tab("Opções Avançadas"),
+            text="Permitir anúncios particulares",
+            variable=self.pf_adds_switch_var,
+            onvalue="on",
+            offvalue="off",
+        )
+        self.pf_adds_switch.grid(row=4, column=0, columnspan=2, sticky="n")
+
+        self.professional_adds_switch_var = customtkinter.StringVar(value="off")
+        self.professional_adds_switch = customtkinter.CTkSwitch(
+            self.tab("Opções Avançadas"),
+            text="Permitir anúncios profissionais",
+            variable=self.professional_adds_switch_var,
+            onvalue="on",
+            offvalue="off",
+        )
+        self.professional_adds_switch.grid(row=5, column=0, columnspan=2, sticky="n")
+
         # Inicial config
         self.brand_option.set("Marca")
         self.car_model_option.set("Modelo")
