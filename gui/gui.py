@@ -100,13 +100,14 @@ class OptionsTabView(customtkinter.CTkTabview):
 
         # ---------------------------------------------------
 
+        self.scrollable_frame = customtkinter.CTkScrollableFrame(
+            master=self.tab("Opções Avançadas"), width=200, height=200
+        )
+
         self.min_km_label = customtkinter.CTkLabel(
             self.tab("Opções Avançadas"), text="Kilometragem mínima:"
         )
         self.min_km_label.grid(row=0, column=0, padx=(10, 10), pady=(10, 0))
-
-        # self.min_km_frame = customtkinter.CTkFrame(self.tab("Opções Avançadas"))
-        # self.min_km_frame.grid(row=2, column=0)
 
         self.min_km = tkinter.ttk.Combobox(
             self.tab("Opções Avançadas"),
@@ -341,6 +342,15 @@ class OptionsTabView(customtkinter.CTkTabview):
         )
         self.max_year.grid(row=3, column=1, padx=(10, 10), pady=(10, 0), sticky="ne")
 
+        self.max_price_label = customtkinter.CTkLabel(
+            self.tab("Opções Avançadas"), text="Preço máximo:"
+        )
+        self.max_price_label.grid(row=4, column=0, padx=(10, 10), pady=(10, 0))
+        self.max_price = customtkinter.CTkEntry(
+            self.tab("Opções Avançadas"), placeholder_text="..."
+        )
+        self.max_price.grid(row=4, column=1, padx=(10, 10), pady=(10, 0), sticky="ne")
+
         self.pf_adds_switch_var = customtkinter.StringVar(value="on")
         self.pf_adds_switch = customtkinter.CTkSwitch(
             self.tab("Opções Avançadas"),
@@ -349,7 +359,7 @@ class OptionsTabView(customtkinter.CTkTabview):
             onvalue="on",
             offvalue="off",
         )
-        self.pf_adds_switch.grid(row=4, column=0, columnspan=2, sticky="n")
+        self.pf_adds_switch.grid(row=5, column=0, columnspan=2, sticky="n")
 
         self.professional_adds_switch_var = customtkinter.StringVar(value="off")
         self.professional_adds_switch = customtkinter.CTkSwitch(
@@ -359,7 +369,7 @@ class OptionsTabView(customtkinter.CTkTabview):
             onvalue="on",
             offvalue="off",
         )
-        self.professional_adds_switch.grid(row=5, column=0, columnspan=2, sticky="n")
+        self.professional_adds_switch.grid(row=6, column=0, columnspan=2, sticky="n")
 
         # Inicial config
         self.brand_option.set("Marca")
@@ -518,7 +528,7 @@ class App(customtkinter.CTk):
 
         # configure window
         self.title("Automação de Busca de Carros na OLX")
-        self.geometry(f"{1100}x{350}")
+        self.geometry(f"{1100}x{425}")
 
         # configure grid layout (4x4)
         self.grid_columnconfigure(1, weight=1)
@@ -538,7 +548,12 @@ class App(customtkinter.CTk):
             command=self.open_input_dialog_event,
         )
         self.main_button_1.grid(
-            row=3, column=1, columnspan=2, padx=(40, 40), pady=(20, 20), sticky="nsew"
+            row=3, column=2, columnspan=1, padx=(5, 20), pady=(20, 20), sticky="nsew"
+        )
+        # create main entry and button
+        self.email_entry = customtkinter.CTkEntry(self, placeholder_text="Email")
+        self.email_entry.grid(
+            row=3, column=1, columnspan=1, padx=(20, 5), pady=(20, 20), sticky="nsew"
         )
 
         # create textbox
