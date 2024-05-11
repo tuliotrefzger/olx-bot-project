@@ -31,11 +31,11 @@ def get_driver():
 
 def wait_based_on_iteration(iteration):
     if iteration % 16 == 0:
-        wait_random_time(60, 80)
+        wait_random_time(30, 40)
     elif iteration % 25 == 0:
-        wait_random_time(90, 110)
+        wait_random_time(30, 40)
     else:
-        wait_random_time(10, 20)
+        wait_random_time(10, 15)
 
 
 def wait_random_time(min_time=3, max_time=6):
@@ -49,10 +49,12 @@ def wait_random_time(min_time=3, max_time=6):
 def get_urls(driver):
     menu_page = BeautifulSoup(driver.page_source, "lxml")
 
-    with open("menu_page.html", "w", encoding="utf-8") as file:
-        file.write(menu_page.prettify())
+    # So that you can see the menu page HTML. Leave commented
+    # with open("menu_page.html", "w", encoding="utf-8") as file:
+    #     file.write(menu_page.prettify())
 
     a_tags = menu_page.find_all("a", attrs={"data-ds-component": "DS-NewAdCard-Link"})
+    print(a_tags)
     links_set = set([])
     for a_tag in a_tags:
         href_value = a_tag.get("href")
@@ -221,8 +223,10 @@ def get_cars(driver, search_infos):
         driver.get(car_url)
         wait_random_time(10, 15)
         ad_page = BeautifulSoup(driver.page_source, "lxml")
-        with open("ad_page.html", "w", encoding="utf-8") as file:
-            file.write(ad_page.prettify())
+
+        # So that you can see the ad page HTML. Leave commented
+        # with open("ad_page.html", "w", encoding="utf-8") as file:
+        #     file.write(ad_page.prettify())
 
         print(f"URL: {car_url}")
 
@@ -269,10 +273,10 @@ def get_cars(driver, search_infos):
         car_km = get_car_km(ad_page, car_url)
         print(f"Kilometragem: {car_km}")
 
-        time.sleep(10)
+        wait_random_time()
 
         try:
-            chat_button = "./images/chat-button-3.png"
+            chat_button = "./images/chat-button.png"
 
             button_location = pyautogui.locateOnScreen(
                 chat_button, confidence=0.8, grayscale=True
@@ -290,23 +294,6 @@ def get_cars(driver, search_infos):
         except Exception as e:
             print("Chat button not found on the screen.")
             continue
-
-        # # -------------- Old find chat button ------------
-        # chat_button = "./chat-button-3.png"
-        #
-        # button_location = pyautogui.locateOnScreen(
-        #     chat_button, confidence=0.8, grayscale=True
-        # )
-        #
-        # if button_location is not None:
-        #     # If the button is found, get its center coordinates
-        #     button_center = pyautogui.center(button_location)
-        #     print(button_center)
-        #     pyautogui.click(button_center[0], button_center[1])
-        #     print("Chat button found at:", button_center)
-        # else:
-        #     print("Chat button not found on the screen.")
-        #     continue
 
         # -------------- Send message part ------------
         try:
@@ -336,18 +323,6 @@ def send_olx_message_automation(search_infos):
     driver = get_driver()
 
     login(driver)
-
-    # search_infos = {
-    #     "brand": "ford",
-    #     "model": "ka",
-    #     "minKm": 0,
-    #     "maxKm": 60000,
-    #     "minYear": 68,
-    #     "maxYear": 74,
-    #     "maxPrice": 200000,
-    #     "message": "Olá, tudo bem?",
-    # }
-
     get_cars(driver, search_infos)
 
     print("\nTHE END")
