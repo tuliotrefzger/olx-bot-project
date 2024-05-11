@@ -1,0 +1,4737 @@
+2024-02-14 11:36:42,621 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 11:36:43,539 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:36:44,038 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:36:44,479 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:36:45,449 - WDM - INFO - WebDriver version 121.0.6167.85 selected
+2024-02-14 11:36:45,450 - WDM - INFO - Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/121.0.6167.85/win32/chromedriver-win32.zip
+2024-02-14 11:36:45,450 - WDM - INFO - About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/121.0.6167.85/win32/chromedriver-win32.zip
+2024-02-14 11:36:45,923 - WDM - INFO - Driver downloading response is 200
+2024-02-14 11:36:47,812 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:36:48,390 - WDM - INFO - Driver has been saved in cache [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85]
+2024-02-14 11:37:06,144 - root - INFO - Chrome foi aberto na página do BTG
+2024-02-14 11:44:42,837 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 11:44:43,705 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:44:44,239 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:44:44,678 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 11:44:46,592 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 11:44:49,158 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 11:44:50,025 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:44:50,473 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 11:44:50,929 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 11:45:18,162 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:04:15,418 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:04:16,314 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:04:16,806 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:04:17,266 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:07:31,263 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:07:32,137 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:07:32,596 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:07:33,079 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:07:40,442 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:55:47,907 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:55:48,884 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:55:49,535 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:55:50,138 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:56:19,802 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:56:59,351 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:57:00,211 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:00,691 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:01,166 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:57:15,260 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:57:22,172 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:57:23,146 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:23,607 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:24,087 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:57:26,375 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:57:31,866 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:57:32,700 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:33,174 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:57:33,636 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:58:00,548 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 12:58:04,663 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 12:58:05,550 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:58:06,065 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 12:58:06,517 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 12:58:31,846 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 13:04:14,094 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 13:04:14,925 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:04:15,399 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:04:15,867 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 13:04:35,738 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 13:07:52,764 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 13:07:53,934 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:07:54,523 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:07:55,095 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 13:08:20,269 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 13:19:49,996 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 13:19:50,901 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:19:51,391 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:19:51,847 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 13:20:16,630 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 13:21:25,273 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 13:21:26,181 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:21:26,701 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 13:21:27,251 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 13:21:51,867 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 17:36:32,623 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 17:36:33,638 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 17:36:34,151 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 17:36:34,613 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 17:37:00,070 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 17:57:20,186 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 17:57:22,065 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 17:57:24,503 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 17:57:25,326 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 17:57:25,791 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 17:57:26,246 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 17:57:52,948 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 18:02:23,181 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 18:02:24,079 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 18:02:24,549 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 18:02:25,017 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 18:02:49,165 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 18:57:21,142 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 18:57:22,070 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 18:57:22,584 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 18:57:23,035 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 18:57:47,223 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 19:03:35,243 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 19:03:36,172 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 19:03:36,678 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 19:03:37,138 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 19:04:04,491 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 19:07:13,407 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 19:07:14,248 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 19:07:14,706 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 19:07:15,166 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 19:07:40,731 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 19:08:54,900 - WDM - INFO - ====== WebDriver manager ======
+2024-02-14 19:08:55,807 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 19:08:56,336 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-14 19:08:57,029 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-14 19:09:24,724 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-14 19:10:54,184 - root - INFO - Falha ao buscar carro Message: no such element: Unable to locate element: {"method":"css selector","selector":"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.dBnjzp > div.ad__sc-h3us20-6.bwBaLM > div > div > div > div.sc-gEvEer.sc-jnOGJG.fPFnoJ.bwWeeV > div.sc-gEvEer.sc-dZoequ.fPFnoJ.hVyURs > div.sc-gEvEer.sc-eZkCL.fPFnoJ.miRdz > div:nth-child(3) > div > span.sc-eqUAAy.crJkyb.sc-ibQAlb.lUVuq"}
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:11:24,289 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:11:54,760 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:12:25,249 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:12:55,728 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:13:26,199 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:13:56,655 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:14:27,154 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:14:57,661 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:27,692 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004F5FBB]
+	(No symbol) [0x004F60FB]
+	(No symbol) [0x0052CF92]
+	(No symbol) [0x00514534]
+	(No symbol) [0x0052B3FE]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,591 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,593 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,593 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,594 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,595 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,596 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,598 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,599 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,601 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,602 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,603 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,607 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,609 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,611 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,613 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,616 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,619 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,622 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,624 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,626 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,628 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,630 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,633 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,637 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,640 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,642 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,644 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,647 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,653 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,655 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,657 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,659 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-14 19:15:47,661 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00651673+52979]
+	(No symbol) [0x005D7961]
+	(No symbol) [0x004BDD3D]
+	(No symbol) [0x004A239A]
+	(No symbol) [0x0051A71B]
+	(No symbol) [0x0052ACB6]
+	(No symbol) [0x00514286]
+	(No symbol) [0x004EC063]
+	(No symbol) [0x004ECECD]
+	GetHandleVerifier [0x00968D83+3294723]
+	GetHandleVerifier [0x009A6CC2+3548482]
+	GetHandleVerifier [0x009A1C9C+3527964]
+	GetHandleVerifier [0x006E870E+671630]
+	(No symbol) [0x005E1EB4]
+	(No symbol) [0x005DD808]
+	(No symbol) [0x005DD92D]
+	(No symbol) [0x005CF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:10:05,687 - WDM - INFO - ====== WebDriver manager ======
+2024-02-15 10:10:06,542 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 10:10:07,077 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 10:10:07,520 - WDM - INFO - There is no [win64] chromedriver "121.0.6167.184" for browser google-chrome "121.0.6167" in cache
+2024-02-15 10:10:07,521 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 10:10:08,526 - WDM - INFO - WebDriver version 121.0.6167.184 selected
+2024-02-15 10:10:08,527 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/121.0.6167.184/win32/chromedriver-win32.zip
+2024-02-15 10:10:08,527 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/121.0.6167.184/win32/chromedriver-win32.zip
+2024-02-15 10:10:09,035 - WDM - INFO - Driver downloading response is 200
+2024-02-15 10:10:11,200 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 10:10:11,776 - WDM - INFO - Driver has been saved in cache [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.184]
+2024-02-15 10:10:39,220 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-15 10:12:27,930 - root - INFO - Falha ao buscar carro Message: no such element: Unable to locate element: {"method":"css selector","selector":"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.dBnjzp > div.ad__sc-h3us20-6.bwBaLM > div > div > div > div.sc-gEvEer.sc-jnOGJG.fPFnoJ.bwWeeV > div.sc-gEvEer.sc-dZoequ.fPFnoJ.hVyURs > div.sc-gEvEer.sc-eZkCL.fPFnoJ.miRdz > div:nth-child(3) > div > span.sc-eqUAAy.crJkyb.sc-ibQAlb.lUVuq"}
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x0035E123+48179]
+	(No symbol) [0x002E5D01]
+	(No symbol) [0x001CD72D]
+	(No symbol) [0x0020572B]
+	(No symbol) [0x0020586B]
+	(No symbol) [0x0023C5B2]
+	(No symbol) [0x00223CD4]
+	(No symbol) [0x0023AA1E]
+	(No symbol) [0x00223A26]
+	(No symbol) [0x001FB7BC]
+	(No symbol) [0x001FC62D]
+	GetHandleVerifier [0x00677C33+3299139]
+	GetHandleVerifier [0x006B5BF2+3553026]
+	GetHandleVerifier [0x006B0BCC+3532508]
+	GetHandleVerifier [0x003F494E+664670]
+	(No symbol) [0x002F0AB4]
+	(No symbol) [0x002EBF08]
+	(No symbol) [0x002EC02D]
+	(No symbol) [0x002DDD00]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:12:58,008 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x0035E123+48179]
+	(No symbol) [0x002E5D01]
+	(No symbol) [0x001CD72D]
+	(No symbol) [0x0020572B]
+	(No symbol) [0x0020586B]
+	(No symbol) [0x0023C5B2]
+	(No symbol) [0x00223CD4]
+	(No symbol) [0x0023AA1E]
+	(No symbol) [0x00223A26]
+	(No symbol) [0x001FB7BC]
+	(No symbol) [0x001FC62D]
+	GetHandleVerifier [0x00677C33+3299139]
+	GetHandleVerifier [0x006B5BF2+3553026]
+	GetHandleVerifier [0x006B0BCC+3532508]
+	GetHandleVerifier [0x003F494E+664670]
+	(No symbol) [0x002F0AB4]
+	(No symbol) [0x002EBF08]
+	(No symbol) [0x002EC02D]
+	(No symbol) [0x002DDD00]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:13:28,495 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x0035E123+48179]
+	(No symbol) [0x002E5D01]
+	(No symbol) [0x001CD72D]
+	(No symbol) [0x0020572B]
+	(No symbol) [0x0020586B]
+	(No symbol) [0x0023C5B2]
+	(No symbol) [0x00223CD4]
+	(No symbol) [0x0023AA1E]
+	(No symbol) [0x00223A26]
+	(No symbol) [0x001FB7BC]
+	(No symbol) [0x001FC62D]
+	GetHandleVerifier [0x00677C33+3299139]
+	GetHandleVerifier [0x006B5BF2+3553026]
+	GetHandleVerifier [0x006B0BCC+3532508]
+	GetHandleVerifier [0x003F494E+664670]
+	(No symbol) [0x002F0AB4]
+	(No symbol) [0x002EBF08]
+	(No symbol) [0x002EC02D]
+	(No symbol) [0x002DDD00]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:13:58,989 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x0035E123+48179]
+	(No symbol) [0x002E5D01]
+	(No symbol) [0x001CD72D]
+	(No symbol) [0x0020572B]
+	(No symbol) [0x0020586B]
+	(No symbol) [0x0023C5B2]
+	(No symbol) [0x00223CD4]
+	(No symbol) [0x0023AA1E]
+	(No symbol) [0x00223A26]
+	(No symbol) [0x001FB7BC]
+	(No symbol) [0x001FC62D]
+	GetHandleVerifier [0x00677C33+3299139]
+	GetHandleVerifier [0x006B5BF2+3553026]
+	GetHandleVerifier [0x006B0BCC+3532508]
+	GetHandleVerifier [0x003F494E+664670]
+	(No symbol) [0x002F0AB4]
+	(No symbol) [0x002EBF08]
+	(No symbol) [0x002EC02D]
+	(No symbol) [0x002DDD00]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:14:29,079 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x0035E123+48179]
+	(No symbol) [0x002E5D01]
+	(No symbol) [0x001CD72D]
+	(No symbol) [0x0020572B]
+	(No symbol) [0x0020586B]
+	(No symbol) [0x0023C5B2]
+	(No symbol) [0x00223CD4]
+	(No symbol) [0x0023AA1E]
+	(No symbol) [0x00223A26]
+	(No symbol) [0x001FB7BC]
+	(No symbol) [0x001FC62D]
+	GetHandleVerifier [0x00677C33+3299139]
+	GetHandleVerifier [0x006B5BF2+3553026]
+	GetHandleVerifier [0x006B0BCC+3532508]
+	GetHandleVerifier [0x003F494E+664670]
+	(No symbol) [0x002F0AB4]
+	(No symbol) [0x002EBF08]
+	(No symbol) [0x002EC02D]
+	(No symbol) [0x002DDD00]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:14:59,130 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x0035E123+48179]
+	(No symbol) [0x002E5D01]
+	(No symbol) [0x001CD72D]
+	(No symbol) [0x0020572B]
+	(No symbol) [0x0020586B]
+	(No symbol) [0x0023C5B2]
+	(No symbol) [0x00223CD4]
+	(No symbol) [0x0023AA1E]
+	(No symbol) [0x00223A26]
+	(No symbol) [0x001FB7BC]
+	(No symbol) [0x001FC62D]
+	GetHandleVerifier [0x00677C33+3299139]
+	GetHandleVerifier [0x006B5BF2+3553026]
+	GetHandleVerifier [0x006B0BCC+3532508]
+	GetHandleVerifier [0x003F494E+664670]
+	(No symbol) [0x002F0AB4]
+	(No symbol) [0x002EBF08]
+	(No symbol) [0x002EC02D]
+	(No symbol) [0x002DDD00]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:15:29,173 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x0035E123+48179]
+	(No symbol) [0x002E5D01]
+	(No symbol) [0x001CD72D]
+	(No symbol) [0x0020572B]
+	(No symbol) [0x0020586B]
+	(No symbol) [0x0023C5B2]
+	(No symbol) [0x00223CD4]
+	(No symbol) [0x0023AA1E]
+	(No symbol) [0x00223A26]
+	(No symbol) [0x001FB7BC]
+	(No symbol) [0x001FC62D]
+	GetHandleVerifier [0x00677C33+3299139]
+	GetHandleVerifier [0x006B5BF2+3553026]
+	GetHandleVerifier [0x006B0BCC+3532508]
+	GetHandleVerifier [0x003F494E+664670]
+	(No symbol) [0x002F0AB4]
+	(No symbol) [0x002EBF08]
+	(No symbol) [0x002EC02D]
+	(No symbol) [0x002DDD00]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:15:59,268 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x0035E123+48179]
+	(No symbol) [0x002E5D01]
+	(No symbol) [0x001CD72D]
+	(No symbol) [0x0020572B]
+	(No symbol) [0x0020586B]
+	(No symbol) [0x0023C5B2]
+	(No symbol) [0x00223CD4]
+	(No symbol) [0x0023AA1E]
+	(No symbol) [0x00223A26]
+	(No symbol) [0x001FB7BC]
+	(No symbol) [0x001FC62D]
+	GetHandleVerifier [0x00677C33+3299139]
+	GetHandleVerifier [0x006B5BF2+3553026]
+	GetHandleVerifier [0x006B0BCC+3532508]
+	GetHandleVerifier [0x003F494E+664670]
+	(No symbol) [0x002F0AB4]
+	(No symbol) [0x002EBF08]
+	(No symbol) [0x002EC02D]
+	(No symbol) [0x002DDD00]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:16:29,430 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x0035E123+48179]
+	(No symbol) [0x002E5D01]
+	(No symbol) [0x001CD72D]
+	(No symbol) [0x0020572B]
+	(No symbol) [0x0020586B]
+	(No symbol) [0x0023C5B2]
+	(No symbol) [0x00223CD4]
+	(No symbol) [0x0023AA1E]
+	(No symbol) [0x00223A26]
+	(No symbol) [0x001FB7BC]
+	(No symbol) [0x001FC62D]
+	GetHandleVerifier [0x00677C33+3299139]
+	GetHandleVerifier [0x006B5BF2+3553026]
+	GetHandleVerifier [0x006B0BCC+3532508]
+	GetHandleVerifier [0x003F494E+664670]
+	(No symbol) [0x002F0AB4]
+	(No symbol) [0x002EBF08]
+	(No symbol) [0x002EC02D]
+	(No symbol) [0x002DDD00]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+
+2024-02-15 10:16:37,172 - root - INFO - Falha ao buscar carro ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2024-02-15 19:56:51,828 - WDM - INFO - ====== WebDriver manager ======
+2024-02-15 19:56:52,708 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 19:56:53,329 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 19:56:53,785 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 19:56:54,776 - WDM - INFO - WebDriver version 121.0.6167.85 selected
+2024-02-15 19:56:54,777 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/121.0.6167.85/win32/chromedriver-win32.zip
+2024-02-15 19:56:54,777 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/121.0.6167.85/win32/chromedriver-win32.zip
+2024-02-15 19:56:55,279 - WDM - INFO - Driver downloading response is 200
+2024-02-15 19:56:57,233 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 19:56:57,826 - WDM - INFO - Driver has been saved in cache [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85]
+2024-02-15 19:57:21,633 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-15 19:58:48,621 - root - INFO - Falha ao buscar carro Message: element click intercepted: Element is not clickable at point (561, 1119)
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x0011B79B]
+	(No symbol) [0x00119EB7]
+	(No symbol) [0x00117F1B]
+	(No symbol) [0x001170BD]
+	(No symbol) [0x0010E010]
+	(No symbol) [0x001344EC]
+	(No symbol) [0x0010DA4E]
+	(No symbol) [0x00134784]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 19:58:51,793 - root - INFO - Falha ao buscar carro Message: no such element: Unable to locate element: {"method":"css selector","selector":"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.dBnjzp > div.ad__sc-h3us20-6.bwBaLM > div > div > div > div.sc-gEvEer.sc-jnOGJG.fPFnoJ.bwWeeV > div.sc-gEvEer.sc-dZoequ.fPFnoJ.hVyURs > div.sc-gEvEer.sc-eZkCL.fPFnoJ.miRdz > div:nth-child(3) > div > span.sc-eqUAAy.crJkyb.sc-ibQAlb.lUVuq"}
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 19:59:21,979 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 19:59:52,021 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:22,540 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:52,571 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,150 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,152 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,154 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,157 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,163 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,166 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,168 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,170 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,171 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,173 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,175 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,178 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,180 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,181 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,183 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,185 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,187 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,188 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,189 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,192 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,194 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,197 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,199 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,200 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,202 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,204 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,206 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,207 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,209 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,211 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,213 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,215 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,217 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,219 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,221 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,221 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,224 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,225 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,227 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:56,228 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:00:59,166 - WDM - INFO - ====== WebDriver manager ======
+2024-02-15 20:01:00,061 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 20:01:00,673 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 20:01:01,169 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-15 20:01:30,800 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-15 20:02:28,371 - root - INFO - Falha ao buscar carro Message: no such element: Unable to locate element: {"method":"css selector","selector":"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.dBnjzp > div.ad__sc-h3us20-6.bwBaLM > div > div > div > div.sc-gEvEer.sc-jnOGJG.fPFnoJ.bwWeeV > div.sc-gEvEer.sc-dZoequ.fPFnoJ.hVyURs > div.sc-gEvEer.sc-eZkCL.fPFnoJ.miRdz > div:nth-child(3) > div > span.sc-eqUAAy.crJkyb.sc-ibQAlb.lUVuq"}
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,369 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,383 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,386 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,389 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,391 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,392 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,393 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,395 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,396 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,398 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,399 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,401 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,402 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,403 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,404 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,405 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,407 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,408 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,409 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,412 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,413 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,415 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,416 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,418 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,419 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,421 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,424 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,426 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,428 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,430 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,433 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,435 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,437 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,438 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,439 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,440 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,443 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,444 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,446 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,447 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,449 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,449 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,450 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,452 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,453 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:48,454 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:02:53,983 - WDM - INFO - ====== WebDriver manager ======
+2024-02-15 20:02:54,833 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 20:02:55,338 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-02-15 20:02:55,802 - WDM - INFO - Driver [C:\Users\Workspace\.wdm\drivers\chromedriver\win64\121.0.6167.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-02-15 20:03:21,166 - root - INFO - Chrome foi aberto na página do OLX
+2024-02-15 20:04:41,707 - root - INFO - Falha ao buscar carro Message: element click intercepted: Element is not clickable at point (410, 1541)
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x0011B79B]
+	(No symbol) [0x00119EB7]
+	(No symbol) [0x00117F1B]
+	(No symbol) [0x001170BD]
+	(No symbol) [0x0010E010]
+	(No symbol) [0x001344EC]
+	(No symbol) [0x0010DA4E]
+	(No symbol) [0x00134784]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:05:05,126 - root - INFO - Falha ao buscar carro Message: element click intercepted: Element is not clickable at point (410, 1127)
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x0011B79B]
+	(No symbol) [0x00119EB7]
+	(No symbol) [0x00117F1B]
+	(No symbol) [0x001170BD]
+	(No symbol) [0x0010E010]
+	(No symbol) [0x001344EC]
+	(No symbol) [0x0010DA4E]
+	(No symbol) [0x00134784]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:05:46,790 - root - INFO - Falha ao buscar carro Message: element click intercepted: Element is not clickable at point (410, 1263)
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x0011B79B]
+	(No symbol) [0x00119EB7]
+	(No symbol) [0x00117F1B]
+	(No symbol) [0x001170BD]
+	(No symbol) [0x0010E010]
+	(No symbol) [0x001344EC]
+	(No symbol) [0x0010DA4E]
+	(No symbol) [0x00134784]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:06:01,007 - root - INFO - Falha ao buscar carro Message: element click intercepted: Element is not clickable at point (410, 1125)
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x0011B79B]
+	(No symbol) [0x00119EB7]
+	(No symbol) [0x00117F1B]
+	(No symbol) [0x001170BD]
+	(No symbol) [0x0010E010]
+	(No symbol) [0x001344EC]
+	(No symbol) [0x0010DA4E]
+	(No symbol) [0x00134784]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:06:18,570 - root - INFO - Falha ao buscar carro Message: element click intercepted: Element is not clickable at point (410, 1125)
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x0011B79B]
+	(No symbol) [0x00119EB7]
+	(No symbol) [0x00117F1B]
+	(No symbol) [0x001170BD]
+	(No symbol) [0x0010E010]
+	(No symbol) [0x001344EC]
+	(No symbol) [0x0010DA4E]
+	(No symbol) [0x00134784]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:06:35,116 - root - INFO - Falha ao buscar carro Message: element click intercepted: Element is not clickable at point (410, 1262)
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x0011B79B]
+	(No symbol) [0x00119EB7]
+	(No symbol) [0x00117F1B]
+	(No symbol) [0x001170BD]
+	(No symbol) [0x0010E010]
+	(No symbol) [0x001344EC]
+	(No symbol) [0x0010DA4E]
+	(No symbol) [0x00134784]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:07:05,982 - root - INFO - Falha ao buscar carro Message: no such element: Unable to locate element: {"method":"css selector","selector":"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.dBnjzp > div.ad__sc-h3us20-6.bwBaLM > div > div > div > div.sc-gEvEer.sc-jnOGJG.fPFnoJ.bwWeeV > div.sc-gEvEer.sc-dZoequ.fPFnoJ.hVyURs > div.sc-gEvEer.sc-eZkCL.fPFnoJ.miRdz > div:nth-child(3) > div > span.sc-eqUAAy.crJkyb.sc-ibQAlb.lUVuq"}
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:07:35,989 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:06,055 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:36,550 - root - INFO - Falha ao buscar carro Message: 
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x00115FBB]
+	(No symbol) [0x001160FB]
+	(No symbol) [0x0014CF92]
+	(No symbol) [0x00134534]
+	(No symbol) [0x0014B3FE]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,052 - root - INFO - Falha ao buscar carro 'NoneType' object has no attribute 'is_displayed'
+2024-02-15 20:08:50,054 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,055 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,056 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,057 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,059 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,060 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,062 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,063 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,064 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,065 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,066 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,067 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,068 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,069 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,070 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,071 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,072 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,073 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,075 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,075 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,076 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
+2024-02-15 20:08:50,077 - root - INFO - Falha ao buscar carro Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.162)
+Stacktrace:
+	GetHandleVerifier [0x00271673+52979]
+	(No symbol) [0x001F7961]
+	(No symbol) [0x000DDD3D]
+	(No symbol) [0x000C239A]
+	(No symbol) [0x0013A71B]
+	(No symbol) [0x0014ACB6]
+	(No symbol) [0x00134286]
+	(No symbol) [0x0010C063]
+	(No symbol) [0x0010CECD]
+	GetHandleVerifier [0x00588D83+3294723]
+	GetHandleVerifier [0x005C6CC2+3548482]
+	GetHandleVerifier [0x005C1C9C+3527964]
+	GetHandleVerifier [0x0030870E+671630]
+	(No symbol) [0x00201EB4]
+	(No symbol) [0x001FD808]
+	(No symbol) [0x001FD92D]
+	(No symbol) [0x001EF7E0]
+	BaseThreadInitThunk [0x75507BA9+25]
+	RtlInitializeExceptionChain [0x76F5BD2B+107]
+	RtlClearBits [0x76F5BCAF+191]
+	(No symbol) [0x00000000]
+
