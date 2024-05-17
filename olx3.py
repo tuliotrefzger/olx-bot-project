@@ -207,8 +207,13 @@ def login(driver):
 
 
 def get_cars(driver, search_infos):
+    ad_type = ""
+    if search_infos["allowPrivateAds"] and not search_infos["allowProfessionalAds"]:
+        ad_type = "f=p&"
+    elif not search_infos["allowPrivateAds"] and search_infos["allowProfessionalAds"]:
+        ad_type = "f=c&"
     driver.get(
-        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{search_infos['brand']}/{search_infos['model']}/estado-df?f=p&me={search_infos['maxKm']}&ms={search_infos['minKm']}&re={search_infos['maxYear']}&rs={search_infos['minYear']}"
+        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{search_infos['brand']}/{search_infos['model']}/estado-df?{ad_type}me={search_infos['maxKm']}&ms={search_infos['minKm']}&re={search_infos['maxYear']}&rs={search_infos['minYear']}"
     )
 
     ad_urls = get_urls(driver)
@@ -322,6 +327,14 @@ def send_olx_message_automation(search_infos):
     # create the driver object.
     driver = get_driver()
 
+    ad_type = ""
+    if search_infos["allowPrivateAds"] and not search_infos["allowProfessionalAds"]:
+        ad_type = "f=p&"
+    elif not search_infos["allowPrivateAds"] and search_infos["allowProfessionalAds"]:
+        ad_type = "f=c&"
+    print(
+        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{search_infos['brand']}/{search_infos['model']}/estado-df?{ad_type}me={search_infos['maxKm']}&ms={search_infos['minKm']}&re={search_infos['maxYear']}&rs={search_infos['minYear']}"
+    )
     login(driver)
     get_cars(driver, search_infos)
 
@@ -346,6 +359,8 @@ if __name__ == "__main__":
         "minYear": 68,
         "maxYear": 74,
         "maxPrice": 200000,
+        "allowPrivateAds": True,
+        "allowProfessionalAds": True,
         "message": "Olá, tudo bem?",
     }
 

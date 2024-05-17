@@ -14,6 +14,8 @@ from customtkinter import (
 import os
 from PIL import ImageTk
 
+from olx3 import send_olx_message_automation
+
 # Read the JSON file
 with open("brand-model-dict.json", "r") as file:
     brand_model_dict = json.load(file)
@@ -250,6 +252,7 @@ class OptionsTabView(customtkinter.CTkTabview):
                 "2022",
                 "2023",
                 "2024",
+                "2025",
             ],
         )
         self.min_year.grid(row=2, column=1, padx=(10, 10), pady=(10, 0), sticky="ne")
@@ -338,6 +341,7 @@ class OptionsTabView(customtkinter.CTkTabview):
                 "2022",
                 "2023",
                 "2024",
+                "2025",
             ],
         )
         self.max_year.grid(row=3, column=1, padx=(10, 10), pady=(10, 0), sticky="ne")
@@ -545,14 +549,17 @@ class App(customtkinter.CTk):
             border_width=2,
             text_color=("gray10", "#DCE4EE"),
             text="Buscar",
-            command=self.open_input_dialog_event,
+            command=self.start_scraping,
         )
         self.main_button_1.grid(
             row=3, column=2, columnspan=1, padx=(5, 20), pady=(20, 20), sticky="nsew"
         )
         # create main entry and button
-        self.email_entry = customtkinter.CTkEntry(self, placeholder_text="Email")
-        self.email_entry.grid(
+        self.message_entry = customtkinter.CTkEntry(
+            self,
+            placeholder_text="Escreva aqui a mensagem a ser enviada aos vendedores",
+        )
+        self.message_entry.grid(
             row=3, column=1, columnspan=1, padx=(20, 5), pady=(20, 20), sticky="nsew"
         )
 
@@ -577,9 +584,30 @@ class App(customtkinter.CTk):
         self.wm_iconbitmap()
         self.iconphoto(False, self.iconpath)
 
+    def start_scraping(self):
+        send_olx_message_automation(
+            {
+                "brand": self.options_tab_view.brand_option.get().lower(),
+                "model": self.options_tab_view.car_model_option.get().lower(),
+                "minKm": convert_to_olx_km(self.options_tab_view.min_km.get()),
+                "maxKm": convert_to_olx_km(self.options_tab_view.max_km.get()),
+                "minYear": convert_to_olx_year(self.options_tab_view.min_year.get()),
+                "maxYear": convert_to_olx_year(self.options_tab_view.max_year.get()),
+                "maxPrice": (
+                    int(self.options_tab_view.max_price.get())
+                    if self.options_tab_view.max_price.get()
+                    else None
+                ),
+                "message": self.message_entry.get(),
+                "allowPrivateAds": self.options_tab_view.pf_adds_switch.get() == "on",
+                "allowProfessionalAds": self.options_tab_view.professional_adds_switch.get()
+                == "on",
+            }
+        )
+
     def open_input_dialog_event(self):
         """Opens confirmation pop up."""
-        dialog = MyInputDialog(text="Começar a busca:", title="Confirmação")
+        dialog = MyInputDialog(text="Começar a busca?", title="Confirmação")
         print("CTkInputDialog:", dialog.get_input())
 
     def change_appearance_mode_event(self, new_appearance_mode: str):
@@ -590,6 +618,20 @@ class App(customtkinter.CTk):
         """Changes application scale."""
         new_scaling_float = int(new_scaling.replace("%", "")) / 100
         customtkinter.set_widget_scaling(new_scaling_float)
+
+
+def convert_to_olx_year(year):
+    if year == "---":
+        return None
+    if year == "1950 ou anterior":
+        return 1950 - 1950
+    return int(year) - 1950
+
+
+def convert_to_olx_km(km):
+    if km == "---":
+        return None
+    return int(km.replace(".", ""))
 
 
 if __name__ == "__main__":
