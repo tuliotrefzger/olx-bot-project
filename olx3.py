@@ -53,16 +53,56 @@ def get_urls(driver):
     # with open("menu_page.html", "w", encoding="utf-8") as file:
     #     file.write(menu_page.prettify())
 
-    a_tags = menu_page.find_all("a", attrs={"data-ds-component": "DS-NewAdCard-Link"})
-    print(a_tags)
-    links_set = set([])
-    for a_tag in a_tags:
-        href_value = a_tag.get("href")
-        if "autos-e-pecas" in href_value:
-            links_set.add(href_value)
-    pprint.pprint(links_set)
+    car_a_tags = menu_page.find_all(
+        "a", attrs={"data-ds-component": "DS-NewAdCard-Link"}
+    )
+    car_url_set = set([])
+    for car_a_tag in car_a_tags:
+        car_url = car_a_tag.get("href")
+        if "autos-e-pecas" in car_url:
+            car_url_set.add(car_url)
 
-    return links_set
+    other_pages_a_tags = menu_page.find_all("a", {"data-ds-component": "DS-Button"})
+    other_pages_url_set = set([])
+
+    for a_tag in other_pages_a_tags:
+        page_url = a_tag.get("href")
+        if page_url:
+            other_pages_url_set.add(page_url)
+
+    other_pages_url_set = choose_random_subset(other_pages_url_set, 2)
+
+    for page_url in other_pages_url_set:
+        driver.get(page_url)
+        wait_random_time()
+
+        menu_page = BeautifulSoup(driver.page_source, "lxml")
+        car_a_tags = menu_page.find_all(
+            "a", attrs={"data-ds-component": "DS-NewAdCard-Link"}
+        )
+        for car_a_tag in car_a_tags:
+            car_url = car_a_tag.get("href")
+            if "autos-e-pecas" in car_url:
+                car_url_set.add(car_url)
+
+    pprint.pprint(car_url_set)
+    print(f"Numero de anúncios a serem vasculhados: {len(car_url_set)}")
+
+    return car_url_set
+
+
+def choose_random_subset(original_set, subset_size):
+    if len(original_set) <= subset_size:
+        return original_set
+
+    # Convert the set to a list before sampling
+    original_list = list(original_set)
+
+    # Choose two random items
+    random_items = random.sample(original_list, subset_size)
+
+    # Return the two random items as a set
+    return set(random_items)
 
 
 def get_car_price(ad_page, url):
@@ -206,14 +246,45 @@ def login(driver):
         print("Impossible to find login button")
 
 
-def get_cars(driver, search_infos):
+def get_query_string(search_infos):
     ad_type = ""
     if search_infos["allowPrivateAds"] and not search_infos["allowProfessionalAds"]:
         ad_type = "f=p&"
     elif not search_infos["allowPrivateAds"] and search_infos["allowProfessionalAds"]:
         ad_type = "f=c&"
+
+    max_km = ""
+    if search_infos["maxKm"]:
+        max_km = f"me={search_infos['maxKm']}&"
+
+    min_km = ""
+    if search_infos["minKm"]:
+        min_km = f"ms={search_infos['minKm']}&"
+
+    max_year = ""
+    if search_infos["maxYear"]:
+        max_year = f"re={search_infos['maxYear']}&"
+
+    min_year = ""
+    if search_infos["minYear"]:
+        min_year = f"rs={search_infos['minYear']}&"
+
+    query_string = ad_type + max_km + min_km + max_year + min_year
+
+    if query_string.endswith("&"):
+        query_string = query_string[:-1]
+
+    if query_string:
+        query_string = "?" + query_string
+
+    return query_string
+
+
+def get_cars(driver, search_infos):
+
+    query_string = get_query_string(search_infos)
     driver.get(
-        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{search_infos['brand']}/{search_infos['model']}/estado-df?{ad_type}me={search_infos['maxKm']}&ms={search_infos['minKm']}&re={search_infos['maxYear']}&rs={search_infos['minYear']}"
+        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{search_infos['brand']}/{search_infos['model']}/estado-df{query_string}"
     )
 
     ad_urls = get_urls(driver)
@@ -243,9 +314,10 @@ def get_cars(driver, search_infos):
             continue
 
         # Removes car more expensive than allowed
-        if currency_to_number(car_price) > search_infos["maxPrice"]:
-            print(f"Car {car_url} is more expensive than the maximum allowed price")
-            continue
+        if search_infos["maxPrice"]:
+            if currency_to_number(car_price) > search_infos["maxPrice"]:
+                print(f"Car {car_url} is more expensive than the maximum allowed price")
+                continue
 
         fipe_price = get_fipe_price(ad_page, car_url)
         print(f"Preço FIPE: {fipe_price}")
@@ -311,9 +383,15 @@ def get_cars(driver, search_infos):
                 )
             )
 
-            input_field.send_keys(search_infos["message"])
-            # # This part works and really sends a message. Leave commented while developing
-            # input_field.send_keys(Keys.ENTER)
+            lines = search_infos["message"].split("\n")
+            for line in lines:
+                input_field.send_keys(line)
+                input_field.send_keys(Keys.SHIFT, Keys.ENTER)
+
+            # Send the message by pressing Enter
+            if not search_infos["test_mode"]:
+                input_field.send_keys(Keys.ENTER)
+
             wait_random_time()
         except Exception as err:
             print(f"Impossible to send message to client {car_url}")
@@ -327,14 +405,6 @@ def send_olx_message_automation(search_infos):
     # create the driver object.
     driver = get_driver()
 
-    ad_type = ""
-    if search_infos["allowPrivateAds"] and not search_infos["allowProfessionalAds"]:
-        ad_type = "f=p&"
-    elif not search_infos["allowPrivateAds"] and search_infos["allowProfessionalAds"]:
-        ad_type = "f=c&"
-    print(
-        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{search_infos['brand']}/{search_infos['model']}/estado-df?{ad_type}me={search_infos['maxKm']}&ms={search_infos['minKm']}&re={search_infos['maxYear']}&rs={search_infos['minYear']}"
-    )
     login(driver)
     get_cars(driver, search_infos)
 
@@ -349,16 +419,21 @@ if __name__ == "__main__":
     # create the driver object.
     driver = get_driver()
 
-    login(driver)
+    # login(driver)
 
     search_infos = {
         "brand": "ford",
         "model": "ka",
-        "minKm": 0,
-        "maxKm": 60000,
-        "minYear": 68,
-        "maxYear": 74,
-        "maxPrice": 200000,
+        # "minKm": 0,
+        # "maxKm": 60000,
+        # "minYear": 68,
+        # "maxYear": 74,
+        # "maxPrice": 200000,
+        "minKm": None,
+        "maxKm": None,
+        "minYear": None,
+        "maxYear": None,
+        "maxPrice": None,
         "allowPrivateAds": True,
         "allowProfessionalAds": True,
         "message": "Olá, tudo bem?",

@@ -40,7 +40,7 @@ class Sidebar(customtkinter.CTkFrame):
         self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
 
         self.appearance_mode_label = customtkinter.CTkLabel(
-            self, text="Modo:", anchor="w"
+            self, text="Tema:", anchor="w"
         )
         self.appearance_mode_label.grid(row=5, column=0, padx=20, pady=(10, 0))
         self.appearance_mode_optionemenu = customtkinter.CTkOptionMenu(
@@ -99,6 +99,16 @@ class OptionsTabView(customtkinter.CTkTabview):
             values=[],
         )
         self.car_model_option.pack(side=tkinter.LEFT, fill=tkinter.BOTH, expand=True)
+
+        self.test_mode_switch_var = customtkinter.StringVar(value="on")
+        self.test_mode_switch = customtkinter.CTkSwitch(
+            self.tab("Opções"),
+            text="Modo de Teste",
+            variable=self.test_mode_switch_var,
+            onvalue="on",
+            offvalue="off",
+        )
+        self.test_mode_switch.grid(row=4, column=0, sticky="s", pady=(10, 0))
 
         # ---------------------------------------------------
 
@@ -574,7 +584,7 @@ class App(customtkinter.CTk):
         self.sidebar.scaling_optionemenu.set("100%")
         self.textbox.insert(
             "0.0",
-            "Automação OLX\n\n"
+            "Automação de busca de carros OLX\n\n"
             + "ANTES DE INICIAR SUA BUSCA, FAÇA O LOGIN COM SUA CONTA NOS SITES DA OLX E DO WHATSAPP!.\n\n"
             + "Bem-vindo ao mecanismo automático de busca de carros. Aqui facilitaremos seu trabalho enviando mensagens automáticas pelo WhatsApp para os vendedores da OLX que se adequem aos campos a serem selecionados por você.\n\n",
         )
@@ -602,6 +612,7 @@ class App(customtkinter.CTk):
                 "allowPrivateAds": self.options_tab_view.pf_adds_switch.get() == "on",
                 "allowProfessionalAds": self.options_tab_view.professional_adds_switch.get()
                 == "on",
+                "test_mode": self.options_tab_view.test_mode_switch.get() == "on",
             }
         )
 
