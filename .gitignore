@@ -1,3 +1,5 @@
 project-venv/
 spreadsheet/credentials.json
 spreadsheet/token.json
+.venv/
+histórico_de_ações.log
