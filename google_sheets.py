@@ -15,8 +15,8 @@ class GoogleSheetAPI:
     def __init__(
         self,
         spreadsheet_id,
-        creds_path="spreadsheet/credentials.json",
-        token_path="spreadsheet/token.json",
+        creds_path="credentials.json",
+        token_path="token.json",
     ):
         self.spreadsheet_id = spreadsheet_id
         self.creds_path = creds_path
@@ -58,7 +58,7 @@ class GoogleSheetAPI:
         except HttpError as err:
             print(f"An error occurred: {err}")
 
-    def get_recent_urls(self, sheet_name, date_column="I", days=21):
+    def get_recent_urls(self, sheet_name, date_column="J", url_column="K", days=21):
         try:
             sheet = self.service.spreadsheets()
             range_name = f"{sheet_name}!A1:Z"  # Adjust as needed to cover all columns
@@ -80,11 +80,12 @@ class GoogleSheetAPI:
                     try:
                         row_date = datetime.strptime(date_str, date_format)
                         if row_date >= cutoff_date:
-                            recent_urls.append(row[9])
+                            recent_urls.append(row[ord(url_column) - ord("A")])
                     except ValueError:
                         continue  # Skip rows with invalid date format
 
-            return set(recent_urls)
+            pprint.pprint(recent_urls)
+            return recent_urls
 
         except HttpError as err:
             print(f"An error occurred: {err}")
@@ -117,8 +118,8 @@ if __name__ == "__main__":
 
     # -----------------------------------------------
 
-    # # Find most recent URLs.
-    # sheet_api = GoogleSheetAPI(spreadsheet_id=SAMPLE_SPREADSHEET_ID)
+    # Find most recent URLs.
+    sheet_api = GoogleSheetAPI(spreadsheet_id=SAMPLE_SPREADSHEET_ID)
     # recent_urls = sheet_api.get_recent_urls("Sheet1")
     # pp = pprint.PrettyPrinter(indent=4)
     # pp.pprint(recent_urls)

@@ -1,10 +1,10 @@
 import time
 import random
 import pprint
-import datetime
 
 # import pandas as pd
 import pyautogui
+from google_sheets import GoogleSheetAPI
 import undetected_chromedriver as uc
 import pyscreeze
 
@@ -16,6 +16,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.keys import Keys
+from datetime import datetime, timedelta
 
 pyscreeze.USE_IMAGE_NOT_FOUND_EXCEPTION = False
 
@@ -229,17 +230,17 @@ def login(driver):
     driver.get("https://www.olx.com.br")
     # Login part
     try:
-        WebDriverWait(driver, 30).until(
+        WebDriverWait(driver, 300).until(
             EC.element_to_be_clickable(
                 (
                     By.CSS_SELECTOR,
-                    "#header > nav > div > div.olx-header__column-right > ul > li.olx-header__profile-item > a",
+                    # "#header > nav > div > div.olx-header__column-right > ul > li.olx-header__profile-item > a",
+                    "#header > nav > div > div.olx-header__column-right > ul > li:nth-child(5) > span > span > span > a",
                 )
             )
         ).click()
         wait_random_time()
-        # time.sleep(120)
-        time.sleep(60)
+        time.sleep(120)
         driver.refresh()
         wait_random_time()
     except Exception as err:
@@ -269,7 +270,11 @@ def get_query_string(search_infos):
     if search_infos["minYear"]:
         min_year = f"rs={search_infos['minYear']}&"
 
-    query_string = ad_type + max_km + min_km + max_year + min_year
+    max_price = ""
+    if search_infos["maxPrice"]:
+        max_price = f"pe={search_infos['maxPrice']}&"
+
+    query_string = ad_type + max_km + min_km + max_year + min_year + max_price
 
     if query_string.endswith("&"):
         query_string = query_string[:-1]
@@ -281,6 +286,10 @@ def get_query_string(search_infos):
 
 
 def get_cars(driver, search_infos):
+    COMMON_SPREADSHEET_ID = "1bGri5TIelYz53QnZ1o-XY4DY5Tu0EvyT7aUyQFzZh3o"
+    SAMPLE_RANGE_NAME = "Sheet1!A1"
+    sheet_api = GoogleSheetAPI(spreadsheet_id=COMMON_SPREADSHEET_ID)
+    recent_urls = sheet_api.get_recent_urls("Sheet1")
 
     query_string = get_query_string(search_infos)
     driver.get(
@@ -290,12 +299,15 @@ def get_cars(driver, search_infos):
     ad_urls = get_urls(driver)
     count = 0
     for car_url in ad_urls:
+        # Avoids sending messages to recent messaged users.
+        if car_url in recent_urls:
+            continue
         count = count + 1
         print(
             f"---------------------------------------------- {count} ----------------------------------------------"
         )
 
-        print(f"Started at: {datetime.datetime.now()}")
+        print(f"Started at: {datetime.now()}")
         driver.get(car_url)
         wait_random_time(10, 15)
         ad_page = BeautifulSoup(driver.page_source, "lxml")
@@ -338,8 +350,8 @@ def get_cars(driver, search_infos):
         user_since = get_user_since(ad_page, car_url)
         print(f"Usuário desde: {user_since}")
 
-        car_model = get_car_model(ad_page, car_url)
-        print(f"Modelo: {car_model}")
+        car_description = get_car_model(ad_page, car_url)
+        print(f"Modelo: {car_description}")
 
         car_year = get_car_year(ad_page, car_url)
         print(f"Ano: {car_year}")
@@ -372,6 +384,8 @@ def get_cars(driver, search_infos):
             print("Chat button not found on the screen.")
             continue
 
+        wait_random_time(5, 6)
+
         # -------------- Send message part ------------
         try:
             input_field = WebDriverWait(driver, 30).until(
@@ -395,13 +409,34 @@ def get_cars(driver, search_infos):
             wait_random_time()
         except Exception as err:
             print(f"Impossible to send message to client {car_url}")
+            continue
 
+        current_date_time = datetime.now()
+        current_date_time_str = current_date_time.strftime("%Y-%m-%d %H:%M:%S")
+        VALUE_DATA = [
+            [
+                car_description,
+                search_infos["model"],
+                search_infos["brand"],
+                car_year,
+                car_color,
+                car_km,
+                car_price,
+                fipe_price,
+                average_olx_price,
+                current_date_time_str,
+                car_url,
+            ]
+        ]
+        sheet_api = GoogleSheetAPI(spreadsheet_id=COMMON_SPREADSHEET_ID)
+        sheet_api.append_values(SAMPLE_RANGE_NAME, VALUE_DATA)
         wait_based_on_iteration(count)
 
-        print(f"Finished at: {datetime.datetime.now()}")
+        print(f"Finished at: {datetime.now()}")
 
 
 def send_olx_message_automation(search_infos):
+    print(search_infos)
     # create the driver object.
     driver = get_driver()
 

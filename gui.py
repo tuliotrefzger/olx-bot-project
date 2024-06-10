@@ -15,6 +15,7 @@ import os
 from PIL import ImageTk
 
 from olx3 import send_olx_message_automation
+from google_sheets import GoogleSheetAPI
 
 # Read the JSON file
 with open("brand-model-dict.json", "r") as file:
@@ -584,9 +585,13 @@ class App(customtkinter.CTk):
         self.sidebar.scaling_optionemenu.set("100%")
         self.textbox.insert(
             "0.0",
-            "Automação de busca de carros OLX\n\n"
-            + "ANTES DE INICIAR SUA BUSCA, FAÇA O LOGIN COM SUA CONTA NOS SITES DA OLX E DO WHATSAPP!.\n\n"
-            + "Bem-vindo ao mecanismo automático de busca de carros. Aqui facilitaremos seu trabalho enviando mensagens automáticas pelo WhatsApp para os vendedores da OLX que se adequem aos campos a serem selecionados por você.\n\n",
+            "Automação de envio de mensagens a vendedores de carros na OLX\n\n"
+            + "Bem-vindo ao mecanismo automático de busca de carros. Aqui facilitaremos seu trabalho enviando mensagens automáticas pela OLX para os vendedores que se adequem aos campos a serem selecionados por você.\n\n"
+            + "Ao lado direito, na aba de opções, selecione a marca e o modelo do veículo que queres buscar. A aba de opções avançadas possuem os filtros a serem utilizados.\n\n"
+            + "No campo abaixo, insira a mensagem que queres enviar a todos os vendedores.\n\n"
+            + "Quando ativo, o switch de 'Modo de Teste' permite que você simule o funcionamento da aplicação sem que mensagens sejam realmente enviadas a vendedores reais."
+            + "Após clicar em 'Buscar', o processo começará. Você será redirecionado à página de login da OLX onde você terá 2 minutos para realizá-lo. Após finalizado o login, a automação começará.\n\n"
+            + "O histórico de vendedores contactados será salvo numa planilha no endereço 'https://docs.google.com/spreadsheets/d/1bGri5TIelYz53QnZ1o-XY4DY5Tu0EvyT7aUyQFzZh3o/edit#gid=0'",
         )
 
         # App logo
