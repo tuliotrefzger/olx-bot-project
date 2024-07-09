@@ -105,18 +105,22 @@ def choose_random_subset(original_set, subset_size):
     # Return the two random items as a set
     return set(random_items)
 
+
 def check_if_vehicle_type_exists(ad_page):
     # Find the span tag with the specific class and text
-    span_tag = ad_page.find('span', class_="olx-text olx-text--body-small olx-text--block olx-text--regular olx-color-neutral-120", text="Tipo de veículo")
-    
+    span_tag = ad_page.find(
+        "span",
+        class_="olx-text olx-text--body-small olx-text--block olx-text--regular olx-color-neutral-120",
+        text="Tipo de veículo",
+    )
+
     # Return True if the span tag is found, otherwise False
     return span_tag is not None
 
 
 def get_car_price(ad_page, url):
-    price_tag = ad_page.find(
-        "h2",
-        class_="olx-text olx-text--title-large olx-text--block ad__sc-1leoitd-0 bJHaGt",
+    price_tag = ad_page.select_one(
+        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.cfkpbP > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(1) > div.sc-bcXHqe.DqRAg > span"
     )
     if price_tag:
         return price_tag.text
@@ -138,7 +142,7 @@ def get_user_since(ad_page, url):
 
 def get_average_olx_price(ad_page, url):
     average_olx_price_tag = ad_page.select_one(
-        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ecMiKL > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(1) > div.sc-bcXHqe.DqRAg > span"
+        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.cfkpbP > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(1) > div.sc-bcXHqe.DqRAg > span"
     )
     if average_olx_price_tag:
         return average_olx_price_tag.text
@@ -149,7 +153,7 @@ def get_average_olx_price(ad_page, url):
 
 def get_fipe_price(ad_page, url):
     fipe_price_tag = ad_page.select_one(
-        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ecMiKL > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(2) > div > span"
+        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.cfkpbP > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(2) > div > span"
     )
     if fipe_price_tag:
         return fipe_price_tag.text
@@ -160,7 +164,7 @@ def get_fipe_price(ad_page, url):
 
 def get_car_model(ad_page, url):
     model_tag = ad_page.select_one(
-        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ifzmST > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(2) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a"
+        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.demnDW > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(2) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a"
     )
     if model_tag:
         return model_tag.text
@@ -172,7 +176,7 @@ def get_car_model(ad_page, url):
 def get_car_year(ad_page, url, vehicle_type_exists):
     nth_child_value = 5 if vehicle_type_exists else 4
     car_year_tag = ad_page.select_one(
-        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ifzmST > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a"
+        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.demnDW > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a"
     )
     if car_year_tag:
         return car_year_tag.text
@@ -184,7 +188,7 @@ def get_car_year(ad_page, url, vehicle_type_exists):
 def get_car_color(ad_page, url, vehicle_type_exists):
     nth_child_value = 11 if vehicle_type_exists else 10
     car_color_tag = ad_page.select_one(
-        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ifzmST > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130"
+        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.demnDW > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130"
     )
     if car_color_tag:
         return car_color_tag.text
@@ -196,7 +200,7 @@ def get_car_color(ad_page, url, vehicle_type_exists):
 def get_car_km(ad_page, url, vehicle_type_exists):
     nth_child_value = 6 if vehicle_type_exists else 5
     car_km_tag = ad_page.select_one(
-        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ifzmST > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130"
+        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.demnDW > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130"
     )
     if car_km_tag:
         return car_km_tag.text
@@ -250,7 +254,7 @@ def login(driver):
             )
         ).click()
         wait_random_time()
-        time.sleep(120)
+        time.sleep(100)
         driver.refresh()
         wait_random_time()
     except Exception as err:
@@ -317,7 +321,6 @@ def get_cars(driver, search_infos):
             f"---------------------------------------------- {count} ----------------------------------------------"
         )
 
-
         print(f"Started at: {datetime.now()}")
         driver.get(car_url)
         wait_random_time(10, 15)
@@ -377,6 +380,7 @@ def get_cars(driver, search_infos):
         print(f"Kilometragem: {car_km}")
 
         wait_random_time()
+        wait_random_time(10000, 50000)
 
         try:
             chat_button = "./images/chat-button.png"
@@ -417,7 +421,7 @@ def get_cars(driver, search_infos):
                 input_field.send_keys(Keys.SHIFT, Keys.ENTER)
 
             # Send the message by pressing Enter
-            if not search_infos["test_mode"]:
+            if search_infos["sendMessage"]:
                 input_field.send_keys(Keys.ENTER)
 
             wait_random_time()
@@ -425,27 +429,31 @@ def get_cars(driver, search_infos):
             print(f"Impossible to send message to client {car_url}")
             continue
 
-        # Do not write on spreadsheet if on test mode
-        if not search_infos["test_mode"]:
-            current_date_time = datetime.now()
-            current_date_time_str = current_date_time.strftime("%Y-%m-%d %H:%M:%S")
-            VALUE_DATA = [
-                [
-                    car_description,
-                    search_infos["model"],
-                    search_infos["brand"],
-                    car_year,
-                    car_color,
-                    car_km,
-                    car_price,
-                    fipe_price,
-                    average_olx_price,
-                    current_date_time_str,
-                    car_url,
+        if search_infos["writeInSpreadsheet"]:
+            try:
+                current_date_time = datetime.now()
+                current_date_time_str = current_date_time.strftime("%Y-%m-%d %H:%M:%S")
+                VALUE_DATA = [
+                    [
+                        car_description,
+                        search_infos["model"],
+                        search_infos["brand"],
+                        car_year,
+                        car_color,
+                        car_km,
+                        car_price,
+                        fipe_price,
+                        average_olx_price,
+                        current_date_time_str,
+                        car_url,
+                    ]
                 ]
-            ]
-            sheet_api = GoogleSheetAPI(spreadsheet_id=COMMON_SPREADSHEET_ID)
-            sheet_api.append_values(SAMPLE_RANGE_NAME, VALUE_DATA)
+                sheet_api = GoogleSheetAPI(spreadsheet_id=COMMON_SPREADSHEET_ID)
+                sheet_api.append_values(SAMPLE_RANGE_NAME, VALUE_DATA)
+                print(f"Added to google sheets: {VALUE_DATA}")
+            except Exception as e:
+                print(e)
+                print(f"Impossible to add {car_url} to google sheets.")
         wait_based_on_iteration(count)
 
         print(f"Finished at: {datetime.now()}")
@@ -488,6 +496,8 @@ if __name__ == "__main__":
         "allowPrivateAds": True,
         "allowProfessionalAds": True,
         "message": "Olá, tudo bem?",
+        "writeInSpreadsheet": True,
+        "sendMessage": False,
     }
 
     get_cars(driver, search_infos)

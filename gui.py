@@ -101,15 +101,25 @@ class OptionsTabView(customtkinter.CTkTabview):
         )
         self.car_model_option.pack(side=tkinter.LEFT, fill=tkinter.BOTH, expand=True)
 
-        self.test_mode_switch_var = customtkinter.StringVar(value="on")
-        self.test_mode_switch = customtkinter.CTkSwitch(
+        self.write_spreadsheet_switch_var = customtkinter.StringVar(value="on")
+        self.write_spreadsheet_switch = customtkinter.CTkSwitch(
             self.tab("Opções"),
-            text="Modo de Teste",
-            variable=self.test_mode_switch_var,
+            text="Escrever na Planilha",
+            variable=self.write_spreadsheet_switch_var,
             onvalue="on",
             offvalue="off",
         )
-        self.test_mode_switch.grid(row=4, column=0, sticky="s", pady=(10, 0))
+        self.write_spreadsheet_switch.grid(row=4, column=0, sticky="s", pady=(10, 0))
+
+        self.send_message_switch_var = customtkinter.StringVar(value="on")
+        self.send_message_switch = customtkinter.CTkSwitch(
+            self.tab("Opções"),
+            text="Enviar Mensagens",
+            variable=self.send_message_switch_var,
+            onvalue="on",
+            offvalue="off",
+        )
+        self.send_message_switch.grid(row=5, column=0, sticky="s", pady=(10, 0))
 
         # ---------------------------------------------------
 
@@ -617,7 +627,9 @@ class App(customtkinter.CTk):
                 "allowPrivateAds": self.options_tab_view.pf_adds_switch.get() == "on",
                 "allowProfessionalAds": self.options_tab_view.professional_adds_switch.get()
                 == "on",
-                "test_mode": self.options_tab_view.test_mode_switch.get() == "on",
+                "writeInSpreadsheet": self.options_tab_view.write_spreadsheet_switch.get()
+                == "on",
+                "sendMessage": self.options_tab_view.send_message_switch.get() == "on",
             }
         )
 
