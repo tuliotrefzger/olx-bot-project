@@ -21,6 +21,14 @@ from datetime import datetime, timedelta
 pyscreeze.USE_IMAGE_NOT_FOUND_EXCEPTION = False
 
 
+def format_brand(brand):
+    if brand == "chevrolet":
+        return "gm-chevrolet"
+    if brand == "volkswagen":
+        return "vw-volkswagen"
+    return brand.replace(" ", "-")
+
+
 def get_driver():
     driver = uc.Chrome(service=Service(ChromeDriverManager().install()))
     driver.execute_script(
@@ -305,9 +313,10 @@ def get_cars(driver, search_infos):
     sheet_api = GoogleSheetAPI(spreadsheet_id=COMMON_SPREADSHEET_ID)
     recent_urls = sheet_api.get_recent_urls("Sheet1")
 
+    formated_brand = format_brand(search_infos["brand"])
     query_string = get_query_string(search_infos)
     driver.get(
-        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{search_infos['brand']}/{search_infos['model']}/estado-df{query_string}"
+        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{formated_brand}/{search_infos['model']}/estado-df{query_string}"
     )
 
     ad_urls = get_urls(driver)
@@ -380,7 +389,6 @@ def get_cars(driver, search_infos):
         print(f"Kilometragem: {car_km}")
 
         wait_random_time()
-        wait_random_time(10000, 50000)
 
         try:
             chat_button = "./images/chat-button.png"
