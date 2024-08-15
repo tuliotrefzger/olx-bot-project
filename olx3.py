@@ -29,6 +29,10 @@ def format_brand(brand):
     return brand.replace(" ", "-")
 
 
+def format_model(model):
+    return model.replace("!", "")
+
+
 def get_driver():
     driver = uc.Chrome(service=Service(ChromeDriverManager().install()))
     driver.execute_script(
@@ -252,7 +256,7 @@ def login(driver):
     driver.get("https://www.olx.com.br")
     # Login part
     try:
-        WebDriverWait(driver, 300).until(
+        WebDriverWait(driver, 70).until(
             EC.element_to_be_clickable(
                 (
                     By.CSS_SELECTOR,
@@ -262,7 +266,7 @@ def login(driver):
             )
         ).click()
         wait_random_time()
-        time.sleep(100)
+        time.sleep(60)
         driver.refresh()
         wait_random_time()
     except Exception as err:
@@ -313,10 +317,11 @@ def get_cars(driver, search_infos):
     sheet_api = GoogleSheetAPI(spreadsheet_id=COMMON_SPREADSHEET_ID)
     recent_urls = sheet_api.get_recent_urls("Sheet1")
 
-    formated_brand = format_brand(search_infos["brand"])
+    formatted_brand = format_brand(search_infos["brand"])
+    formatted_model = format_model(search_infos["model"])
     query_string = get_query_string(search_infos)
     driver.get(
-        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{formated_brand}/{search_infos['model']}/estado-df{query_string}"
+        f"https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/{formatted_brand}/{formatted_model}/estado-df{query_string}"
     )
 
     ad_urls = get_urls(driver)
