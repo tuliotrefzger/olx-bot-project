@@ -132,7 +132,7 @@ def check_if_vehicle_type_exists(ad_page):
 
 def get_car_price(ad_page, url):
     price_tag = ad_page.select_one(
-        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.cfkpbP > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(1) > div.sc-bcXHqe.DqRAg > span"
+        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.VJCLc > div > div > div > div.ad__sc-en9h1n-0.IoqnP > div.ad__sc-1leoitd-2.fIICfM.olx-d-flex.olx-ai-flex-start.olx-fd-column > h2"
     )
     if price_tag:
         return price_tag.text
@@ -154,7 +154,7 @@ def get_user_since(ad_page, url):
 
 def get_average_olx_price(ad_page, url):
     average_olx_price_tag = ad_page.select_one(
-        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.cfkpbP > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(1) > div.sc-bcXHqe.DqRAg > span"
+        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.bLuMSq > div > div > div > div.olx-d-flex.olx-fd-row.olx-jc-space-between.olx-gap-1 > div:nth-child(1) > div.olx-d-flex.olx-mb-1.olx-ai-center > span"
     )
     if average_olx_price_tag:
         return average_olx_price_tag.text
@@ -165,7 +165,7 @@ def get_average_olx_price(ad_page, url):
 
 def get_fipe_price(ad_page, url):
     fipe_price_tag = ad_page.select_one(
-        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.cfkpbP > div > div > div > div.sc-bcXHqe.sc-eDvSVe.caEdXs.hKQPaV > div:nth-child(2) > div > span"
+        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.bLuMSq > div > div > div > div.olx-d-flex.olx-fd-row.olx-jc-space-between.olx-gap-1 > div:nth-child(2) > div > span"
     )
     if fipe_price_tag:
         return fipe_price_tag.text
@@ -176,7 +176,7 @@ def get_fipe_price(ad_page, url):
 
 def get_car_model(ad_page, url):
     model_tag = ad_page.select_one(
-        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.demnDW > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(2) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a"
+        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.jLLJMF > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child(2) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a"
     )
     if model_tag:
         return model_tag.text
@@ -188,7 +188,7 @@ def get_car_model(ad_page, url):
 def get_car_year(ad_page, url, vehicle_type_exists):
     nth_child_value = 5 if vehicle_type_exists else 4
     car_year_tag = ad_page.select_one(
-        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.demnDW > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a"
+        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.jLLJMF > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > a"
     )
     if car_year_tag:
         return car_year_tag.text
@@ -200,7 +200,7 @@ def get_car_year(ad_page, url, vehicle_type_exists):
 def get_car_color(ad_page, url, vehicle_type_exists):
     nth_child_value = 11 if vehicle_type_exists else 10
     car_color_tag = ad_page.select_one(
-        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.demnDW > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130"
+        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.jLLJMF > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130"
     )
     if car_color_tag:
         return car_color_tag.text
@@ -212,7 +212,7 @@ def get_car_color(ad_page, url, vehicle_type_exists):
 def get_car_km(ad_page, url, vehicle_type_exists):
     nth_child_value = 6 if vehicle_type_exists else 5
     car_km_tag = ad_page.select_one(
-        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.demnDW > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130"
+        f"#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.jLLJMF > div > div > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div:nth-child({nth_child_value}) > div > div.olx-d-flex.olx-ml-2.olx-ai-baseline.olx-fd-column > span.olx-text.olx-text--body-medium.olx-text--block.olx-text--regular.olx-color-neutral-130"
     )
     if car_km_tag:
         return car_km_tag.text
@@ -223,7 +223,7 @@ def get_car_km(ad_page, url, vehicle_type_exists):
 
 def get_ad_publish_date(ad_page, url):
     published_at_tag = ad_page.select_one(
-        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ckBKfA > div > div > div > span.olx-text.olx-text--caption.olx-text--block.olx-text--regular.ad__sc-1oq8jzc-0.dWayMW.olx-color-neutral-120"
+        "#content > div.ad__sc-18p038x-2.djeeke > div > div.sc-bwzfXH.ad__sc-h3us20-0.lbubah > div.ad__sc-duvuxf-0.ad__sc-h3us20-0.hRTDUb > div.ad__sc-h3us20-6.ckBKfA > div > div > div > span.olx-text.olx-text--caption.olx-text--block.olx-text--regular.ad__sc-1oq8jzc-0.eSgKoP.olx-color-neutral-120"
     )
     if published_at_tag:
         return published_at_tag.text
@@ -494,8 +494,8 @@ if __name__ == "__main__":
     # login(driver)
 
     search_infos = {
-        "brand": "ford",
-        "model": "ka",
+        "brand": "audi",
+        "model": "a5",
         # "minKm": 0,
         # "maxKm": 60000,
         # "minYear": 68,
@@ -509,7 +509,7 @@ if __name__ == "__main__":
         "allowPrivateAds": True,
         "allowProfessionalAds": True,
         "message": "Olá, tudo bem?",
-        "writeInSpreadsheet": True,
+        "writeInSpreadsheet": False,
         "sendMessage": False,
     }
 
